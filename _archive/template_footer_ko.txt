@@ -1,0 +1,141 @@
+﻿
+<!-- Sidebar -->
+<aside class="article-sidebar">
+<nav class="toc">
+          <div class="toc__title">이 글의 목차</div>
+          <ul class="toc__list">
+            <li><a href="#pricing" class="toc__link">&#x1f4b0; 새로운 가격 현실</a></li>
+            <li><a href="#why-it-matters" class="toc__link">&#x1f4ca; GEO에 중요한 이유</a></li>
+            <li><a href="#comparison" class="toc__link">&#x1f4ca; DeepSeek V4 비교</a></li>
+            <li><a href="#opportunity" class="toc__link">&#x1f3af; TMG에 의미하는 것</a></li>
+            <li><a href="#action" class="toc__link">&#x1f680; 지금 브랜드가 해야 할 일</a></li>
+            <li><a href="#bottom-line" class="toc__link">&#x1f4dd; 결론</a></li>
+          </ul>
+        </nav>
+<div class="sidebar-cta">
+<p>Doubao의 1.4억+ DAU가 AI 발견이 영구적 채널임을 신호했습니다. 귀하의 브랜드는 준비되었나요?</p>
+<a class="btn btn--primary" href="/ko/geo/">TMG GEO 살펴보기</a>
+</div>
+</aside>
+</div>
+</main>
+<!-- Related Posts placeholder -->
+<section class="related">
+    <div class="container">
+      <div class="related__title">블로그 더보기</div>
+      <div class="related__grid">
+        <a href="/ko/blog/deepseek-image-recognition-geo/" class="related-card">
+          <div class="related-card__cat">GEO / AI</div>
+          <div class="related-card__title">DeepSeek가 눈을 뜨다: 이미지 인식과 GEO</div>
+          <p class="related-card__desc">DeepSeek가 이미지 인식 모드를 출시. 중국 GEO에서 비주얼 콘텐츠 최적화는 더 이상 옵션이 아닙니다.</p>
+        </a>
+        <a href="/ko/blog/doubao-paid-what-it-means-for-geo/" class="related-card">
+          <div class="related-card__cat">GEO / AI 검색</div>
+          <div class="related-card__title">Doubao 유료화: 중국 GEO에 의미하는 것</div>
+          <p class="related-card__desc">ByteDance의 Doubao가 월 68~500위안 유료 플랜 도입. AI 수익화가 브랜드 발견에 의미하는 것.</p>
+        </a>
+        <a href="/ko/blog/geo-channel-weight-2026/" class="related-card">
+          <div class="related-card__cat">GEO</div>
+          <div class="related-card__title">GEO 채널 웨이트 업데이트 2026</div>
+          <p class="related-card__desc">AI 플랫폼이 어떤 콘텐츠 소스를 더 인용하고 어떤 것을 제외했는지. 2026년 4월 실측 데이터.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__section">
+          <h4 class="footer__title">TMG 소개</h4>
+          <p class="footer__description">
+            중국 1,000억 달러 디지털 광고 시장으로의 단일 액세스 포인트. 국제 에이전시가 중국 플랫폼을 쉽게 탐색할 수 있도록 지원합니다.
+          </p>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__title">바로가기</h4>
+          <ul class="footer__links">
+            <li><a href="/ko/services/" class="footer__link">서비스</a></li>
+            <li><a href="/ko/pricing/" class="footer__link">요금</a></li>
+            <li><a href="/ko/about/" class="footer__link">회사 소개</a></li>
+            <li><a href="/ko/client-stories/" class="footer__link">고객 사례</a></li>
+            <li><a href="/ko/faqs/" class="footer__link">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__title">문의하기</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="mailto:tmg@tuyuesouxin.cn" class="footer__link footer__link--email">tmg@tuyuesouxin.cn</a>
+            </li>
+            <li>
+              <a href="#contactQR" class="footer__link">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: text-bottom; margin-right: 4px;">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                WhatsApp (클릭하여 스캔)
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__title">법적 고지</h4>
+          <ul class="footer__links">
+            <li class="footer__license">사업자 등록 번호: 91310114MADKG4UF0G</li>
+            <li class="footer__company-short">Tuyue Media Gateway</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 Tuyue Media Gateway. 모든 권리 보유.</p>
+        <div class="footer__platforms">
+          <a href="https://ad.weixin.qq.com" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">WeChat</a>
+          <a href="https://www.oceanengine.com" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">Douyin</a>
+          <a href="https://e.baidu.com" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">Baidu</a>
+          <a href="https://www.xiaohongshu.com/brand" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">샤오홍슈(RED)</a>
+          <a href="https://member.bilibili.com/platform/ad" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">Bilibili</a>
+          <a href="https://ads.microsoft.com/zh-cn" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">Bing China</a>
+</div>
+      </div>
+    </div>
+  </footer>
+<script>
+  // Mobile Menu & Dropdown Toggle
+  (function () {
+    var toggle = document.querySelector('.header__toggle');
+    var nav = document.querySelector('.header__nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', function () {
+        const isOpen = toggle.classList.toggle('active');
+        nav.classList.toggle('active', isOpen);
+        toggle.setAttribute('aria-expanded', String(isOpen));
+      });
+    }
+    nav.querySelectorAll('.header__dropdown').forEach(function (dropdown) {
+      var trigger = dropdown.querySelector('.header__dropdown-trigger');
+      if (trigger) {
+        trigger.addEventListener('click', function (e) {
+          e.preventDefault();
+          nav.querySelectorAll('.header__dropdown').forEach(function (d) {
+            if (d !== dropdown) d.classList.remove('open');
+          });
+          dropdown.classList.toggle('open');
+        });
+      }
+    });
+    document.addEventListener('click', function (e) {
+      if (!nav.contains(e.target)) {
+        nav.querySelectorAll('.header__dropdown').forEach(function (d) {
+          d.classList.remove('open');
+        });
+      }
+    });
+  })();
+
+  // Scroll Reveal (disabled: content always visible)
+  (function () {
+    // Reveal animation removed - user prefers content always visible
+  })();
+  </script>
+</body>
+</html>

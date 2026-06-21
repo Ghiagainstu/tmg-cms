@@ -1,0 +1,782 @@
+[
+    {
+        "data":  [
+                     "AI content in search: 35% → 64%",
+                     "Smart Search MAU: 735M",
+                     "New AI-native ad formats emerging"
+                 ],
+        "slug":  "baidu-ai-search-ads-2026",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "Baidu\u0027s AI-generated search results are changing ad formats. Brands must adapt to AI-native ad placements.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "Baidu AI Search Ads: The New Frontier of Search Advertising"
+    },
+    {
+        "data":  [
+                     "Brand Zone impressions: premium placement",
+                     "Custom modules: products, news, videos",
+                     "CTR 3-5x higher than standard ads"
+                 ],
+        "slug":  "baidu-brand-zone-2026",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "Brand Zone on Baidu gives brands a custom presence at the top of search results with rich media modules.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "Baidu Brand Zone 2026: Dominating the Search Results Page"
+    },
+    {
+        "data":  [
+                     "Online marketing revenue -15% YoY",
+                     "Product search still high-intent",
+                     "AI integration changing ad formats"
+                 ],
+        "slug":  "baidu-ecommerce-search-ads-2026",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "Baidu\u0027s e-commerce search ads face disruption from AI but still deliver for high-intent product queries.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "Baidu E-Commerce Search Ads: Competing in the AI Era"
+    },
+    {
+        "data":  [
+                     "Location-based ad targeting",
+                     "Service category expansion",
+                     "Map integration for local discovery"
+                 ],
+        "slug":  "baidu-local-service-search-ads",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "Baidu\u0027s local service ads connect businesses with nearby searchers for immediate service needs.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "Baidu Local Service Ads: Capturing Nearby Customers"
+    },
+    {
+        "data":  [
+                     "AI-generated ad copy optimization",
+                     "Dynamic creative assembly",
+                     "Performance-based creative rotation"
+                 ],
+        "slug":  "baidu-search-creative-automation",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "Baidu\u0027s AI tools automate search ad creative: headlines, descriptions, and extensions.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "Baidu Search Creative Automation: AI-Powered Ad Creation"
+    },
+    {
+        "data":  [
+                     "Smart keyword expansion tools",
+                     "Search query mining",
+                     "Negative keyword automation"
+                 ],
+        "slug":  "baidu-search-keyword-expansion-ai",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "Baidu\u0027s AI expands keyword lists automatically, finding new search queries that drive conversions.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "AI-Powered Keyword Expansion on Baidu Search"
+    },
+    {
+        "data":  [
+                     "O2O conversion tracking",
+                     "Store visit attribution",
+                     "QR code to search funnel"
+                 ],
+        "slug":  "baidu-search-offline-to-online",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "How Baidu search ads drive offline store visits and service bookings through O2O integration.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "Baidu Search: Bridging Offline to Online for Brands"
+    },
+    {
+        "data":  [
+                     "PIPL compliance requirements",
+                     "First-party data strategies",
+                     "Consent-based targeting approaches"
+                 ],
+        "slug":  "baidu-search-privacy-compliance-2026",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "China\u0027s data privacy regulations affect Baidu search advertising. Compliance guide for brands.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "Baidu Search Privacy Compliance: What Advertisers Must Know"
+    },
+    {
+        "data":  [
+                     "Quality score components",
+                     "Landing page optimization",
+                     "CTR improvement strategies"
+                 ],
+        "slug":  "baidu-search-quality-score-advanced",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "Deep dive into Baidu\u0027s quality score factors and how to improve ad rank and reduce CPC.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "Advanced Baidu Quality Score Optimization"
+    },
+    {
+        "data":  [
+                     "Smart Mini Program ad formats",
+                     "In-search conversion experiences",
+                     "Cross-device tracking"
+                 ],
+        "slug":  "baidu-smart-mini-program-search-ads",
+        "sourceUrl":  "https://e.baidu.com/",
+        "tmg":  "Baidu\u0027s Smart Mini Programs integrate with search ads for seamless in-SERP experiences.",
+        "category":  "Baidu / Search Ads",
+        "platform":  "Baidu",
+        "title":  "Baidu Smart Mini Program Search Ads"
+    },
+    {
+        "data":  [
+                     "340M+ MAU, 65% under 30",
+                     "Brand search ad formats",
+                     "Gen-Z search behavior patterns"
+                 ],
+        "slug":  "bilibili-brand-search-2026",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Brand search on Bilibili connects advertisers with 340M+ young users actively searching for content.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Bilibili Brand Search 2026: Reaching Gen-Z Through Search"
+    },
+    {
+        "data":  [
+                     "Creator content indexed in search",
+                     "KOL collaboration for search SEO",
+                     "UP主 partnership models"
+                 ],
+        "slug":  "bilibili-creator-search-strategy",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Bilibili\u0027s creator ecosystem drives search behavior. Brands can leverage KOL content for search visibility.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Creator Search Strategy on Bilibili: KOL-Driven Discovery"
+    },
+    {
+        "data":  [
+                     "Gen-Z spending power growing",
+                     "Content-commerce integration",
+                     "Product search ad formats"
+                 ],
+        "slug":  "bilibili-ecommerce-search-ads",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Bilibili\u0027s e-commerce search ads target Gen-Z shoppers with content-integrated product discovery.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Bilibili E-Commerce Search Ads: Selling to Gen-Z"
+    },
+    {
+        "data":  [
+                     "Gaming content dominates Bilibili",
+                     "Game search ad formats",
+                     "Pre-registration and install campaigns"
+                 ],
+        "slug":  "bilibili-gaming-search-ads",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Bilibili is the #1 platform for gaming content. Search ads reach gamers at the moment of interest.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Bilibili Gaming Search Ads: Reaching China\u0027s Gamers"
+    },
+    {
+        "data":  [
+                     "Search ad revenue growing",
+                     "New ad formats: pause ads, in-feed",
+                     "Targeting by interest and content type"
+                 ],
+        "slug":  "bilibili-search-ads-2026",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Comprehensive guide to Bilibili search advertising: formats, targeting, and optimization for 2026.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Bilibili Search Ads 2026: Complete Advertising Guide"
+    },
+    {
+        "data":  [
+                     "Content-matched ad placement",
+                     "Brand safety controls",
+                     "Contextual targeting accuracy"
+                 ],
+        "slug":  "bilibili-search-content-matching",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Bilibili\u0027s search matches ads to content context, ensuring brand safety and relevance.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Bilibili Search Content Matching: Contextual Ad Placement"
+    },
+    {
+        "data":  [
+                     "Gen-Z creative preferences",
+                     "Authentic vs polished creative",
+                     "A/B testing framework"
+                 ],
+        "slug":  "bilibili-search-creative-lab",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Creative testing for Bilibili search ads: what works with Gen-Z audiences.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Bilibili Search Creative Lab: Ads That Gen-Z Actually Clicks"
+    },
+    {
+        "data":  [
+                     "Full-funnel search strategy",
+                     "Multi-step attribution",
+                     "Cross-format funnel optimization"
+                 ],
+        "slug":  "bilibili-search-funnel-guide",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Building a complete search funnel on Bilibili from brand awareness to purchase conversion.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Bilibili Search Funnel Guide: Awareness to Conversion"
+    },
+    {
+        "data":  [
+                     "Performance benchmarks",
+                     "Bid optimization strategies",
+                     "Creative rotation best practices"
+                 ],
+        "slug":  "bilibili-search-performance-2026",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Performance optimization techniques for Bilibili search ads: bidding, targeting, and creative rotation.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Bilibili Search Performance Optimization 2026"
+    },
+    {
+        "data":  [
+                     "Youth search behavior data",
+                     "Campus and education ad targeting",
+                     "Youth brand building through search"
+                 ],
+        "slug":  "bilibili-youth-search-ads",
+        "sourceUrl":  "https://member.bilibili.com/platform/ad",
+        "tmg":  "Reaching China\u0027s youth through Bilibili search: trends, behaviors, and advertising strategies.",
+        "category":  "Bilibili / Search Ads",
+        "platform":  "Bilibili",
+        "title":  "Youth Search Ads on Bilibili: Capturing the Next Generation"
+    },
+    {
+        "data":  [
+                     "B2B search intent on Bing",
+                     "Enterprise keyword targeting",
+                     "LinkedIn integration for B2B"
+                 ],
+        "slug":  "bing-china-b2b-search-2026",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Bing China\u0027s B2B search ads reach enterprise decision-makers who use Bing for work-related searches.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Bing China B2B Search Ads: The Enterprise Opportunity"
+    },
+    {
+        "data":  [
+                     "Lower CPC than Baidu",
+                     "Premium audience demographics",
+                     "Cross-border search queries"
+                 ],
+        "slug":  "bing-china-brand-search-2026",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Brand search on Bing China offers premium placement with lower competition than Baidu.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Bing China Brand Search 2026: Premium Placement Strategy"
+    },
+    {
+        "data":  [
+                     "Copilot AI integration",
+                     "Conversational ad formats",
+                     "AI-generated product recommendations"
+                 ],
+        "slug":  "bing-china-copilot-search-ads",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Microsoft Copilot integration with Bing China creates new AI-native ad formats for advertisers.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Bing China Copilot Search Ads: AI-Native Advertising"
+    },
+    {
+        "data":  [
+                     "Cross-border e-commerce queries",
+                     "International brand discovery",
+                     "Multi-language search targeting"
+                 ],
+        "slug":  "bing-china-cross-border-search-ads",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Bing China captures cross-border shopping searches from Chinese consumers buying international products.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Cross-Border Search Ads on Bing China"
+    },
+    {
+        "data":  [
+                     "Education search volume",
+                     "Course and certification targeting",
+                     "Student demographic reach"
+                 ],
+        "slug":  "bing-china-education-search-ads",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Education-related searches on Bing China reach students and professionals seeking courses and certifications.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Bing China Education Search Ads: Reaching Students"
+    },
+    {
+        "data":  [
+                     "Location-based targeting",
+                     "Maps integration",
+                     "Local business ad formats"
+                 ],
+        "slug":  "bing-china-local-search-ads",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Local search ads on Bing China target users searching for nearby services and businesses.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Bing China Local Search Ads: Geo-Targeted Advertising"
+    },
+    {
+        "data":  [
+                     "AI-powered bid optimization",
+                     "Cross-surface campaign delivery",
+                     "Automated creative assembly"
+                 ],
+        "slug":  "bing-china-performance-max-2026",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Performance Max campaigns on Bing China use AI to optimize across all Microsoft surfaces.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Bing China Performance Max: Automated Campaign Optimization"
+    },
+    {
+        "data":  [
+                     "Product listing ads",
+                     "Shopping campaign formats",
+                     "Retail-specific targeting"
+                 ],
+        "slug":  "bing-china-retail-search-ads",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Retail search ads on Bing China connect brands with shoppers searching for products.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Bing China Retail Search Ads: E-Commerce on Microsoft"
+    },
+    {
+        "data":  [
+                     "Responsive search ad format",
+                     "Ad extension strategies",
+                     "Creative testing methodology"
+                 ],
+        "slug":  "bing-china-search-creative-guide",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Creative best practices for Bing China search ads: headlines, descriptions, extensions, and responsive ads.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Bing China Search Creative Guide: Best Practices"
+    },
+    {
+        "data":  [
+                     "Travel search intent data",
+                     "Hotel and flight ad formats",
+                     "Seasonal travel targeting"
+                 ],
+        "slug":  "bing-china-travel-search-ads",
+        "sourceUrl":  "https://ads.microsoft.com/zh-cn",
+        "tmg":  "Travel search ads on Bing China reach users planning trips, booking hotels, and researching destinations.",
+        "category":  "Bing China / Search Ads",
+        "platform":  "BingChina",
+        "title":  "Bing China Travel Search Ads: Reaching Travelers"
+    },
+    {
+        "data":  [
+                     "Douyin daily searches: 5.3B+",
+                     "Brand search CTR 2-3x higher than feed ads",
+                     "Search intent = higher purchase probability"
+                 ],
+        "slug":  "douyin-brand-search-2026",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "Brand search on Douyin is growing as users shift from passive browsing to active product discovery.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "Douyin Brand Search 2026: How Brands Win the Search Bar"
+    },
+    {
+        "data":  [
+                     "Content discovery → search → purchase funnel",
+                     "Video content drives search behavior",
+                     "Hashtag and topic search optimization"
+                 ],
+        "slug":  "douyin-content-search-discovery",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "Douyin users discover products through content, then search to compare and purchase. Optimizing this path is key.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "Content-to-Search Discovery on Douyin: The New Purchase Path"
+    },
+    {
+        "data":  [
+                     "Product card commission-free expansion",
+                     "Shop search ads with product feeds",
+                     "Marketplace search ranking factors"
+                 ],
+        "slug":  "douyin-ecommerce-search-2026",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "Complete guide to Douyin\u0027s e-commerce search advertising: product cards, shop search, and marketplace ads.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "Douyin E-Commerce Search Ads: The 2026 Playbook"
+    },
+    {
+        "data":  [
+                     "Live commerce + search = closed-loop conversion",
+                     "Qianchuan live bidding optimization",
+                     "Real-time search during livestreams"
+                 ],
+        "slug":  "douyin-live-search-conversion",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "Combining live commerce with search ads creates the highest-converting path on Douyin.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "Live Commerce + Search: Douyin\u0027s Conversion Powerhouse"
+    },
+    {
+        "data":  [
+                     "Local life GMV growing rapidly",
+                     "POI-based search targeting",
+                     "Store visit conversion tracking"
+                 ],
+        "slug":  "douyin-local-life-search-ads",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "Douyin\u0027s local life search (restaurants, services, entertainment) is a growing ad channel for local businesses.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "Douyin Local Life Search Ads: Capturing Nearby Demand"
+    },
+    {
+        "data":  [
+                     "Ranking factors: bid × quality × relevance",
+                     "AI-powered ranking optimization",
+                     "Quality score components explained"
+                 ],
+        "slug":  "douyin-search-ads-ranking-2026",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "Understanding Douyin\u0027s search ad ranking factors: bid, relevance, quality score, and user behavior signals.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "Douyin Search Ad Ranking: How the Algorithm Decides"
+    },
+    {
+        "data":  [
+                     "Competitor keyword analysis tools",
+                     "Share of voice tracking",
+                     "Market gap identification methods"
+                 ],
+        "slug":  "douyin-search-competitive-analysis",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "How to analyze competitor search ad strategies on Douyin and find gaps to exploit.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "Competitive Analysis for Douyin Search Ads"
+    },
+    {
+        "data":  [
+                     "Top-performing creative formats",
+                     "AI creative generation via Qianchuan",
+                     "Hook testing methodology"
+                 ],
+        "slug":  "douyin-search-creative-lab",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "Testing and optimizing search ad creative on Douyin: formats, hooks, and AI-generated variants.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "Douyin Search Creative Lab: High-Performing Ad Formats"
+    },
+    {
+        "data":  [
+                     "Cross-touchpoint attribution",
+                     "Omni-funnel budget allocation",
+                     "Search across all Douyin surfaces"
+                 ],
+        "slug":  "douyin-search-omni-funnel",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "Unified search strategy across Douyin\u0027s ecosystem: feed, search, live, shop, and local life.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "Douyin Omni-Funnel Search Strategy"
+    },
+    {
+        "data":  [
+                     "SEM: keyword-targeted, CPC bidding",
+                     "Search feed: AI-matched, oCPM optimization",
+                     "ROI comparison across ad types"
+                 ],
+        "slug":  "douyin-sem-vs-search-feed-2026",
+        "sourceUrl":  "https://www.oceanengine.com/",
+        "tmg":  "Comparing traditional SEM-style search ads with Douyin\u0027s algorithmic search feed ads.",
+        "category":  "Douyin / Search Ads",
+        "platform":  "Douyin",
+        "title":  "SEM vs Search Feed on Douyin: Which Delivers Better ROI?"
+    },
+    {
+        "data":  [
+                     "WeChat Search MAU: 800M+",
+                     "Brand Zone CTR 3-5x higher than standard ads",
+                     "Mini Program integration enables direct conversion"
+                 ],
+        "slug":  "wechat-brand-zone-search-2026",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "Brand Zone lets brands dominate WeChat Search with custom modules, mini-program links, and product showcases.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "WeChat Brand Zone Search: How Brands Own the Top Spot"
+    },
+    {
+        "data":  [
+                     "Channels ad revenue +50% YoY",
+                     "Video content indexed in search results",
+                     "Cross-pollination between Channels and Search"
+                 ],
+        "slug":  "wechat-channels-search-discovery",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "Channels content now appears in WeChat Search results, creating a new SEO-like optimization opportunity for video content.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "WeChat Channels Search Discovery: The New Content SEO"
+    },
+    {
+        "data":  [
+                     "Mini Program GMV +18%",
+                     "Search ads can surface Mini Program content",
+                     "In-app content becomes externally discoverable"
+                 ],
+        "slug":  "wechat-mini-program-search-ads",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "Mini Programs are now searchable and ad-eligible, turning previously hidden app content into discoverable commerce.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "WeChat Mini Program Search Ads: Turning Apps Into Discoverable Assets"
+    },
+    {
+        "data":  [
+                     "Mini Store transaction volume +20%",
+                     "Product listings in search results",
+                     "Direct purchase without leaving WeChat"
+                 ],
+        "slug":  "wechat-mini-store-search-ads",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "Mini Store products now appear in WeChat Search, creating a direct path from search query to purchase.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "WeChat Mini Store Search Ads: E-Commerce Meets Search"
+    },
+    {
+        "data":  [
+                     "WeChat search ads +60% YoY",
+                     "Multiple touchpoints in single search journey",
+                     "Cross-module attribution needed"
+                 ],
+        "slug":  "wechat-omni-search-brand-strategy",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "Brands need a unified search strategy across WeChat ecosystem: Search, Channels, Mini Programs, and Moments.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "Omni-Search Brand Strategy on WeChat: A Unified Approach"
+    },
+    {
+        "data":  [
+                     "Private domain drives repeat search behavior",
+                     "Official account content indexed in search",
+                     "Group-to-search conversion paths"
+                 ],
+        "slug":  "wechat-private-domain-search-retention",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "Combining private domain (groups, official accounts) with search ads creates a powerful retention loop.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "Private Domain + Search: WeChat\u0027s Retention Power Combo"
+    },
+    {
+        "data":  [
+                     "Search ad revenue +60% YoY",
+                     "AI-powered ad CTR +15-22%",
+                     "New ad formats: service cards, product cards"
+                 ],
+        "slug":  "wechat-search-ads-2026",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "Comprehensive guide to WeChat Search advertising: formats, targeting, bidding, and optimization for 2026.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "WeChat Search Ads in 2026: The Complete Performance Guide"
+    },
+    {
+        "data":  [
+                     "AI creative tools: Miaosi assistant",
+                     "A/B testing framework for search ads",
+                     "Creative formats: text, image, video, service cards"
+                 ],
+        "slug":  "wechat-search-creative-testing",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "Data-driven creative testing methodology for WeChat Search ads, including AI-generated creative variants.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "WeChat Search Creative Testing: What Works in 2026"
+    },
+    {
+        "data":  [
+                     "Mini Program conversion tracking",
+                     "Multi-step attribution models",
+                     "Cross-module funnel analysis"
+                 ],
+        "slug":  "wechat-search-funnel-optimization",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "End-to-end funnel optimization for WeChat Search: impression → click → Mini Program → conversion → retention.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "WeChat Search Funnel Optimization: From Click to Conversion"
+    },
+    {
+        "data":  [
+                     "Service search queries growing rapidly",
+                     "Mini Program booking integration",
+                     "Location-based service ads"
+                 ],
+        "slug":  "wechat-service-search-conversion",
+        "sourceUrl":  "https://ad.weixin.qq.com/",
+        "tmg":  "Service-based searches on WeChat (doctor, restaurant, travel) have high conversion intent. How brands capture this.",
+        "category":  "WeChat / Search Ads",
+        "platform":  "WeChat",
+        "title":  "WeChat Service Search: Converting Queries Into Customers"
+    },
+    {
+        "data":  [
+                     "350M+ MAU on Xiaohongshu",
+                     "Brand Zone search CTR premium",
+                     "KOL content integration"
+                 ],
+        "slug":  "xiaohongshu-brand-zone-search",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Brand Zone on Xiaohongshu gives brands a curated search presence with product showcases and KOL content.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "Xiaohongshu Brand Zone: Premium Search Presence"
+    },
+    {
+        "data":  [
+                     "Category search volume growing 40%+ YoY",
+                     "Niche keyword opportunities",
+                     "Content-to-search optimization"
+                 ],
+        "slug":  "xiaohongshu-category-search-growth",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Category-level search on Xiaohongshu is growing. Brands that own category keywords win discovery.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "Category Search Growth on Xiaohongshu: Finding Your Niche"
+    },
+    {
+        "data":  [
+                     "Local search queries growing rapidly",
+                     "POI and store page optimization",
+                     "Review and rating system impact"
+                 ],
+        "slug":  "xiaohongshu-local-business-search",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Xiaohongshu is becoming the go-to platform for local business discovery, especially for beauty, food, and lifestyle.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "Xiaohongshu Local Business Search: The New Yelp of China"
+    },
+    {
+        "data":  [
+                     "Product card search ads",
+                     "Shopping integration in search",
+                     "Content-commerce attribution"
+                 ],
+        "slug":  "xiaohongshu-product-search-ads",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Product search ads on Xiaohongshu bridge the gap between content discovery and e-commerce purchase.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "Xiaohongshu Product Search Ads: From Discovery to Purchase"
+    },
+    {
+        "data":  [
+                     "Search ad formats: note, product, brand",
+                     "Targeting by interest and behavior",
+                     "Bidding strategies for different objectives"
+                 ],
+        "slug":  "xiaohongshu-search-ads-2026",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Comprehensive guide to Xiaohongshu search advertising: formats, targeting, bidding, and best practices.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "Xiaohongshu Search Ads 2026: The Complete Guide"
+    },
+    {
+        "data":  [
+                     "Note-style ad performance data",
+                     "Visual vs text creative testing",
+                     "UGC-style creative outperforms polished ads"
+                 ],
+        "slug":  "xiaohongshu-search-creative-testing",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Testing search ad creative on Xiaohongshu: note-style ads, product cards, and visual search formats.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "Xiaohongshu Search Creative Testing: What Converts"
+    },
+    {
+        "data":  [
+                     "Full-funnel search strategy",
+                     "Attribution across touchpoints",
+                     "Post-purchase content loop"
+                 ],
+        "slug":  "xiaohongshu-search-funnel-2026",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Building a complete search funnel on Xiaohongshu from awareness through purchase and advocacy.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "Xiaohongshu Search Funnel: From Impression to Loyalty"
+    },
+    {
+        "data":  [
+                     "KOC content ranks higher in search",
+                     "Authentic reviews drive conversion",
+                     "KOC seeding strategies"
+                 ],
+        "slug":  "xiaohongshu-search-koc-strategy",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Key Opinion Consumers (KOCs) drive authentic search results on Xiaohongshu. How brands leverage this.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "KOC Search Strategy on Xiaohongshu: Authentic Discovery"
+    },
+    {
+        "data":  [
+                     "Multi-touch attribution models",
+                     "Cross-platform measurement",
+                     "Incremental lift testing"
+                 ],
+        "slug":  "xiaohongshu-search-omni-attribution",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Attribution models for Xiaohongshu search: measuring the true impact of search ads across the customer journey.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "Xiaohongshu Omni-Attribution: Measuring Search Impact"
+    },
+    {
+        "data":  [
+                     "Organic search optimization tactics",
+                     "Paid search bidding strategies",
+                     "SEO+SEM synergy effects"
+                 ],
+        "slug":  "xiaohongshu-search-seo-vs-sem",
+        "sourceUrl":  "https://www.xiaohongshu.com/brand",
+        "tmg":  "Balancing organic SEO and paid SEM on Xiaohongshu for maximum search visibility.",
+        "category":  "Xiaohongshu / Search Ads",
+        "platform":  "Xiaohongshu",
+        "title":  "Xiaohongshu SEO vs SEM: Organic vs Paid Search Strategy"
+    }
+]

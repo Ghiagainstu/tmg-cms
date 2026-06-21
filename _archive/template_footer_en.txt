@@ -1,0 +1,143 @@
+﻿
+
+      <!-- Sidebar -->
+      <aside class="article-sidebar">
+        <nav class="toc">
+          <div class="toc__title">In This Article</div>
+          <ul class="toc__list">
+            <li><a href="#scale" class="toc__link">📊 The Numbers That Matter</a></li>
+            <li><a href="#charging-signal" class="toc__link">🔑 Why Charging Matters for GEO</a></li>
+            <li><a href="#opportunity" class="toc__link">🚀 What This Means for TMG</a></li>
+            <li><a href="#action" class="toc__link">🎯 What Brands Should Do Now</a></li>
+          </ul>
+        </nav>
+        <div class="sidebar-cta">
+          <p>Doubao's 140M+ DAU just signaled that AI discovery is a permanent channel. Is your brand ready?</p>
+          <a href="/geo/" class="btn btn--primary">Explore TMG GEO</a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Related Posts placeholder -->
+  <section class="related">
+    <div class="container">
+      <div class="related__title">More from the Blog</div>
+      <div class="related__grid">
+        <a href="/blog/deepseek-image-recognition-geo/" class="related-card">
+          <div class="related-card__cat">GEO / AI</div>
+          <div class="related-card__title">DeepSeek Opens Its Eyes: Image Recognition & GEO</div>
+          <p class="related-card__desc">DeepSeek just launched image recognition mode. For brands doing GEO in China, visual content optimization is no longer optional.</p>
+        </a>
+        <a href="/blog/doubao-paid-what-it-means-for-geo/" class="related-card">
+          <div class="related-card__cat">GEO / AI Search</div>
+          <div class="related-card__title">Doubao Goes Paid: What This Means for GEO</div>
+          <p class="related-card__desc">ByteDance&#39;s Doubao introduced paid tiers at 68-500 RMB/month. What AI monetization means for brand discovery in China.</p>
+        </a>
+        <a href="/blog/geo-channel-weight-2026/" class="related-card">
+          <div class="related-card__cat">GEO</div>
+          <div class="related-card__title">GEO Channel Weight Update 2026</div>
+          <p class="related-card__desc">Which content sources AI platforms are citing more — and which ones they phased out. Real test data from April 2026.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__section">
+          <h4 class="footer__title">About TMG</h4>
+          <p class="footer__description">
+            Your single point of access to China's $100B digital advertising market. We help international agencies navigate Chinese platforms with ease.
+          </p>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="/services/" class="footer__link">Services</a></li>
+            <li><a href="/pricing/" class="footer__link">Pricing</a></li>
+            <li><a href="/about/" class="footer__link">About Us</a></li>
+            <li><a href="/client-stories/" class="footer__link">Client Stories</a></li>
+            <li><a href="/faqs/" class="footer__link">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__title">Contact</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="mailto:tmg@tuyuesouxin.cn" class="footer__link footer__link--email">tmg@tuyuesouxin.cn</a>
+            </li>
+            <li>
+              <a href="#contactQR" class="footer__link">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: text-bottom; margin-right: 4px;">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                WhatsApp (Click to scan)
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__title">Legal</h4>
+          <ul class="footer__links">
+            <li class="footer__license">Business License Number: 91310114MADKG4UF0G</li>
+            <li class="footer__company-short">Tuyue Media Gateway</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 Tuyue Media Gateway. All rights reserved.</p>
+        <div class="footer__platforms">
+          <a href="https://ad.weixin.qq.com" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">WeChat</a>
+          <a href="https://www.oceanengine.com" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">Douyin</a>
+          <a href="https://e.baidu.com" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">Baidu</a>
+          <a href="https://www.xiaohongshu.com/brand" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">Xiaohongshu</a>
+          <a href="https://member.bilibili.com/platform/ad" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">Bilibili</a>
+          <a href="https://ads.microsoft.com/zh-cn" target="_blank" rel="nofollow noopener noreferrer" class="footer__platform-badge">Bing China</a>
+</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  // Mobile Menu & Dropdown Toggle
+  (function () {
+    var toggle = document.querySelector('.header__toggle');
+    var nav = document.querySelector('.header__nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', function () {
+        const isOpen = toggle.classList.toggle('active');
+        nav.classList.toggle('active', isOpen);
+        toggle.setAttribute('aria-expanded', String(isOpen));
+      });
+    }
+    nav.querySelectorAll('.header__dropdown').forEach(function (dropdown) {
+      var trigger = dropdown.querySelector('.header__dropdown-trigger');
+      if (trigger) {
+        trigger.addEventListener('click', function (e) {
+          e.preventDefault();
+          nav.querySelectorAll('.header__dropdown').forEach(function (d) {
+            if (d !== dropdown) d.classList.remove('open');
+          });
+          dropdown.classList.toggle('open');
+        });
+      }
+    });
+    document.addEventListener('click', function (e) {
+      if (!nav.contains(e.target)) {
+        nav.querySelectorAll('.header__dropdown').forEach(function (d) {
+          d.classList.remove('open');
+        });
+      }
+    });
+  })();
+
+  // Scroll Reveal (disabled: content always visible)
+  (function () {
+    // Reveal animation removed - user prefers content always visible
+  })();
+  </script>
+</body>
+</html>

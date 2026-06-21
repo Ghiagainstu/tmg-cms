@@ -1,0 +1,10 @@
+﻿const fs = require("fs");
+const c = fs.readFileSync("C:\\Users\\fireh\\WorkBuddy\\20260326144402\\tmg-website\\ja\\blog\\ad-billing-models-explained.html", "utf8");
+console.log("File size: " + c.length);
+console.log("callout callout--accent: " + (/<div class="callout callout--accent">/.test(c) ? "PASS" : "FAIL"));
+console.log("feature-grid: " + (/<div class="feature-grid">/.test(c) ? "PASS" : "FAIL"));
+console.log("article-table: " + (/class="article-table">/.test(c) ? "PASS" : "FAIL"));
+console.log("takeaway-banner: " + (/<div class="takeaway-banner">/.test(c) ? "PASS" : "FAIL"));
+console.log("Key Insight: " + (c.includes("Key Insight") ? "FOUND" : "clean"));
+console.log("Key Takeaway: " + (c.includes("Key Takeaway") ? "FOUND" : "clean"));
+console.log("significantly: " + (c.includes("significantly") ? "FOUND" : "clean"));
