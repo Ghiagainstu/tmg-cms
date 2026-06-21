@@ -1,0 +1,17 @@
+﻿{
+  "name": "tmg-cms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TMG CMS - Tuyue Media Gateway Content Management System",
+  "scripts": {
+    "dev:admin": "cd admin && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:admin": "cd admin && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "curl -X POST http://localhost:3001/admin/api/seed"
+  },
+  "workspaces": [
+    "admin",
+    "frontend"
+  ]
+}
