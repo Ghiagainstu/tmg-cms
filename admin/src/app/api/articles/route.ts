@@ -1,4 +1,4 @@
-﻿import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { getDb, getAllArticles, getArticle } from "@/lib/db";
 
 // GET /api/articles                → list articles (optional ?lang=en&status=published)

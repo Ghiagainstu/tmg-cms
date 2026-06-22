@@ -1,4 +1,4 @@
-﻿import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { seed } from "@/lib/seed";
 
 // POST /admin/api/seed → seed the database with initial TMG site structure

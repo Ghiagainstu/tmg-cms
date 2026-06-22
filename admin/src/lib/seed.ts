@@ -1,4 +1,4 @@
-﻿// Seed the CMS with TMG's existing site structure and sample content
+// Seed the CMS with TMG's existing site structure and sample content
 import { getDb, saveDb } from "./db";
 
 const NAV_ITEMS_EN = [

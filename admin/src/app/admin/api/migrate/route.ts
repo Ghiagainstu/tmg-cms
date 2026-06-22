@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
-import { importArticles } from "@/lib/import-articles";
+import { migrateHtml } from "@/lib/migrate-html";
 
-// POST /admin/api/import → batch import articles from topics_data.json
+// POST /admin/api/migrate �� migrate HTML articles into CMS
 export async function POST() {
   try {
-    const result = await importArticles();
+    const result = await migrateHtml();
     return NextResponse.json({
       ok: true,
-      message: `Import complete: ${result.imported} imported, ${result.skipped} skipped, ${result.total} total`,
+      message: `Migration complete: ${result.migrated} migrated, ${result.skipped} skipped`,
       ...result,
     });
   } catch (err: unknown) {

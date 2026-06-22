@@ -1,4 +1,4 @@
-﻿// CMS Database Layer - SQLite via sql.js (pure JS, no native deps)
+// CMS Database Layer - SQLite via sql.js (pure JS, no native deps)
 import initSqlJs, { Database } from "sql.js";
 import fs from "fs";
 import path from "path";

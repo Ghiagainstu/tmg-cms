@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import { useState } from "react";
 import { useLang } from "@/lib/useLang";
 import { t } from "@/lib/i18n";
@@ -7,9 +7,24 @@ export default function AdminDashboard() {
   const { lang } = useLang();
   const [seeding, setSeeding] = useState(false);
   const [importing, setImporting] = useState(false);
+  const [migrating, setMigrating] = useState(false);
   const [result, setResult] = useState("");
 
-  async function handleSeed() {
+
+  async function handleMigrate() {
+    setMigrating(true);
+    setResult("");
+    try {
+      const res = await fetch("/admin/api/migrate", { method: "POST" });
+      const data = await res.json();
+      setResult(data.ok ? "✅ " + data.message : "❌ " + data.error);
+    } catch (e) {
+      setResult("❌ " + String(e));
+    }
+    setMigrating(false);
+  }
+
+    async function handleSeed() {
     setSeeding(true);
     setResult("");
     try {
@@ -72,6 +87,10 @@ export default function AdminDashboard() {
           <button onClick={handleImport} disabled={importing}
             className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 text-sm font-medium">
             {importing ? t("actions.importing", lang) : t("actions.importArticles", lang)}
+          </button>
+          <button onClick={handleMigrate} disabled={migrating}
+            className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 disabled:opacity-50 text-sm font-medium">
+            {migrating ? (lang === "zh" ? "正在迁移..." : "Migrating...") : (lang === "zh" ? "🔄 迁移HTML文章" : "🔄 Migrate HTML")}
           </button>
         </div>
         {result && <p className="mt-3 text-sm">{result}</p>}

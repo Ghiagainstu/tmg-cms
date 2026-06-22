@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import { createContext, useContext, useState, useCallback, type ReactNode } from "react";
 import type { Lang } from "./i18n";
 

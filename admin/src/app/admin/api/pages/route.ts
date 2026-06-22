@@ -1,4 +1,4 @@
-﻿import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { getDb, saveDb } from "@/lib/db";
 
 // POST /admin/api/pages → create or update page

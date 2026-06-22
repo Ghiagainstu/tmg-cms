@@ -1,4 +1,4 @@
-﻿// Batch import articles from topics_data.json into CMS database
+// Batch import articles from topics_data.json into CMS database
 import { getDb, saveDb } from "./db";
 import fs from "fs";
 import path from "path";
