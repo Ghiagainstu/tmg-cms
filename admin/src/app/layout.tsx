@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   description: "Tuyue Media Gateway - China Digital Advertising CMS",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.svg",
   },
 };
 
