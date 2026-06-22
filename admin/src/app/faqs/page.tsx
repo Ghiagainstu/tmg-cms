@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const faqs = [
   { q: "What advertising platforms do you support?", a: "We support all major Chinese digital advertising platforms: WeChat, Douyin (TikTok China), Baidu, Xiaohongshu (RED), Bilibili, and Bing China. We are a one-stop partner for China market entry." },
-  { q: "What is the minimum advertising budget?", a: "Minimum budgets vary by platform. WeChat Moments ads typically start at ��50,000/campaign, Baidu SEM at ��5,000/month, and Douyin feed ads at ��10,000/campaign. We work with you to find the right starting point." },
+  { q: "What is the minimum advertising budget?", a: "Minimum budgets vary by platform. WeChat Moments ads typically start at —50,000/campaign, Baidu SEM at —5,000/month, and Douyin feed ads at —10,000/campaign. We work with you to find the right starting point." },
   { q: "How long does it take to see results?", a: "Paid search (Baidu/Bing) can deliver leads within days. Social platforms (WeChat/Douyin/Xiaohongshu) typically need 2-4 weeks for optimization. We provide weekly reports from day one." },
   { q: "Do I need an ICP license to advertise in China?", a: "For most paid advertising, you do NOT need your own ICP license. Platforms like WeChat and Douyin allow overseas advertisers through agency accounts. We handle all compliance requirements." },
   { q: "What languages do you support?", a: "Our team operates in English, Chinese (Mandarin), Japanese, and Korean. All campaign management, reporting, and creative can be delivered in your preferred language." },

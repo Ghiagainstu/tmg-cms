@@ -32,7 +32,7 @@ export default async function HomePage() {
             One Connection.<br /><span className="text-[#c9a84c]">All China Platforms.</span>
           </h1>
           <p className="text-lg text-[#b3c0d8] max-w-2xl mx-auto mb-10">
-            The unified media interface for international agencies entering China&apos;s digital advertising market. WeChat, Douyin, Baidu, Xiaohongshu, Bilibili �� one partner, all platforms.
+            The unified media interface for international agencies entering China&apos;s digital advertising market. WeChat, Douyin, Baidu, Xiaohongshu, Bilibili — one partner, all platforms.
           </p>
           <div className="flex justify-center gap-4">
             <a href="/contact" className="bg-[#c9a84c] text-[#080c14] px-6 py-3 rounded-lg font-semibold hover:bg-[#e8c87a] transition">Start Your Campaign</a>
@@ -57,7 +57,7 @@ export default async function HomePage() {
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-4">Our Services</h2>
-          <p className="text-center text-[#b3c0d8] mb-12 max-w-2xl mx-auto">Full-service China digital advertising �� from strategy to execution, across all major platforms.</p>
+          <p className="text-center text-[#b3c0d8] mb-12 max-w-2xl mx-auto">Full-service China digital advertising — from strategy to execution, across all major platforms.</p>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: "WeChat Ads", desc: "Moments ads, Mini Programs, Official Account marketing, and search ads.", href: "/services/wechat" },

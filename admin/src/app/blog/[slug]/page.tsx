@@ -39,7 +39,7 @@ export default async function BlogDetailPage({ params }: Props) {
         <h1 className="text-3xl md:text-4xl font-bold mb-4">{article.title}</h1>
         <div className="flex items-center gap-3 text-sm text-[#8899b5] mb-8">
           <span>{article.author}</span>
-          <span>��</span>
+          <span>—</span>
           <span>{article.publish_date}</span>
         </div>
         {article.cover_image && <img src={article.cover_image} alt={article.title} className="w-full rounded-xl mb-8" />}

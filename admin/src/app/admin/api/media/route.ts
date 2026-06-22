@@ -5,7 +5,7 @@ import path from "path";
 
 const UPLOAD_DIR = path.join(process.cwd(), "public", "uploads");
 
-// GET /admin/api/media �� list all media
+// GET /admin/api/media — list all media
 export async function GET() {
   const db = await getDb();
   const rows = db.exec("SELECT * FROM media ORDER BY created_at DESC");
@@ -17,7 +17,7 @@ export async function GET() {
   return NextResponse.json(items);
 }
 
-// POST /admin/api/media �� upload file
+// POST /admin/api/media — upload file
 export async function POST(req: NextRequest) {
   const formData = await req.formData();
   const file = formData.get("file") as File | null;

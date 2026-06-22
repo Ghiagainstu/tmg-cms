@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { migrateHtml } from "@/lib/migrate-html";
 
-// POST /admin/api/migrate �� migrate HTML articles into CMS
+// POST /admin/api/migrate — migrate HTML articles into CMS
 export async function POST() {
   try {
     const result = await migrateHtml();
