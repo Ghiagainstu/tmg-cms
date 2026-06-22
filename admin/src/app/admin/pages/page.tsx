@@ -1,5 +1,7 @@
 ﻿"use client";
 import { useState, useEffect } from "react";
+import { useLang } from "@/lib/useLang";
+import { t } from "@/lib/i18n";
 
 interface Page {
   id: number; slug: string; lang: string; title: string;
@@ -7,9 +9,10 @@ interface Page {
   blocks: string; updated_at: string;
 }
 
-const LANGS = ["en", "ja", "ko"];
+const CONTENT_LANGS = ["en", "ja", "ko"];
 
 export default function PagesAdmin() {
+  const { lang } = useLang();
   const [pages, setPages] = useState<Page[]>([]);
   const [filterLang, setFilterLang] = useState("");
   const [editing, setEditing] = useState<Page | null>(null);
@@ -45,7 +48,7 @@ export default function PagesAdmin() {
   }
 
   async function handleDelete(id: number) {
-    if (!confirm("Delete this page?")) return;
+    if (!confirm(t("pages.deleteConfirm", lang))) return;
     await fetch(`/admin/api/pages?id=${id}`, { method: "DELETE" });
     load();
   }
@@ -53,60 +56,60 @@ export default function PagesAdmin() {
   return (
     <div>
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold text-gray-900">Pages</h1>
+        <h1 className="text-2xl font-bold text-gray-900">{t("pages.title", lang)}</h1>
         <div className="flex gap-2">
           <select value={filterLang} onChange={(e) => setFilterLang(e.target.value)} className="border rounded px-3 py-1.5 text-sm">
-            <option value="">All Languages</option>
-            {LANGS.map((l) => <option key={l} value={l}>{l.toUpperCase()}</option>)}
+            <option value="">{t("pages.allLangs", lang)}</option>
+            {CONTENT_LANGS.map((l) => <option key={l} value={l}>{l.toUpperCase()}</option>)}
           </select>
           <button onClick={() => setEditing({ id: 0, slug: "", lang: "en", title: "", meta_description: "", status: "draft", template: "default", blocks: "[]", updated_at: "" })}
-            className="px-4 py-1.5 bg-blue-600 text-white rounded text-sm hover:bg-blue-700">+ New Page</button>
+            className="px-4 py-1.5 bg-blue-600 text-white rounded text-sm hover:bg-blue-700">{t("pages.new", lang)}</button>
         </div>
       </div>
 
       {editing && (
         <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
           <form onSubmit={handleSave} className="bg-white rounded-xl p-6 w-full max-w-lg shadow-xl">
-            <h2 className="text-lg font-bold mb-4">{editing.id ? "Edit" : "New"} Page</h2>
+            <h2 className="text-lg font-bold mb-4">{editing.id ? t("pages.edit", lang) : t("pages.create", lang)}</h2>
             <div className="space-y-3">
               <div className="grid grid-cols-2 gap-3">
                 <div>
-                  <label className="text-xs text-gray-500">Slug</label>
+                  <label className="text-xs text-gray-500">{t("pages.slug", lang)}</label>
                   <input name="slug" defaultValue={editing.slug} required className="w-full border rounded px-3 py-1.5 text-sm" />
                 </div>
                 <div>
-                  <label className="text-xs text-gray-500">Language</label>
+                  <label className="text-xs text-gray-500">{t("pages.lang", lang)}</label>
                   <select name="lang" defaultValue={editing.lang} className="w-full border rounded px-3 py-1.5 text-sm">
-                    {LANGS.map((l) => <option key={l} value={l}>{l.toUpperCase()}</option>)}
+                    {CONTENT_LANGS.map((l) => <option key={l} value={l}>{l.toUpperCase()}</option>)}
                   </select>
                 </div>
               </div>
               <div>
-                <label className="text-xs text-gray-500">Title</label>
+                <label className="text-xs text-gray-500">{t("pages.titleField", lang)}</label>
                 <input name="title" defaultValue={editing.title} className="w-full border rounded px-3 py-1.5 text-sm" />
               </div>
               <div>
-                <label className="text-xs text-gray-500">Meta Description</label>
+                <label className="text-xs text-gray-500">{t("pages.metaDesc", lang)}</label>
                 <textarea name="meta_description" defaultValue={editing.meta_description} rows={2} className="w-full border rounded px-3 py-1.5 text-sm" />
               </div>
               <div className="grid grid-cols-2 gap-3">
                 <div>
-                  <label className="text-xs text-gray-500">Status</label>
+                  <label className="text-xs text-gray-500">{t("pages.status", lang)}</label>
                   <select name="status" defaultValue={editing.status} className="w-full border rounded px-3 py-1.5 text-sm">
-                    <option value="draft">Draft</option>
-                    <option value="published">Published</option>
+                    <option value="draft">{t("status.draft", lang)}</option>
+                    <option value="published">{t("status.published", lang)}</option>
                   </select>
                 </div>
                 <div>
-                  <label className="text-xs text-gray-500">Template</label>
+                  <label className="text-xs text-gray-500">{t("pages.template", lang)}</label>
                   <input name="template" defaultValue={editing.template} className="w-full border rounded px-3 py-1.5 text-sm" />
                 </div>
               </div>
             </div>
             <div className="flex justify-end gap-2 mt-5">
-              <button type="button" onClick={() => setEditing(null)} className="px-4 py-1.5 border rounded text-sm">Cancel</button>
+              <button type="button" onClick={() => setEditing(null)} className="px-4 py-1.5 border rounded text-sm">{t("btn.cancel", lang)}</button>
               <button type="submit" disabled={saving} className="px-4 py-1.5 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 disabled:opacity-50">
-                {saving ? "Saving..." : "Save"}
+                {saving ? t("btn.saving", lang) : t("btn.save", lang)}
               </button>
             </div>
           </form>
@@ -117,12 +120,12 @@ export default function PagesAdmin() {
         <table className="w-full text-sm">
           <thead className="bg-gray-50">
             <tr>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Slug</th>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Lang</th>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Title</th>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Status</th>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Template</th>
-              <th className="text-right px-4 py-2 font-medium text-gray-600">Actions</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("pages.th.slug", lang)}</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("pages.th.lang", lang)}</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("pages.th.title", lang)}</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("pages.th.status", lang)}</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("pages.th.template", lang)}</th>
+              <th className="text-right px-4 py-2 font-medium text-gray-600">{t("pages.th.actions", lang)}</th>
             </tr>
           </thead>
           <tbody>
@@ -133,18 +136,18 @@ export default function PagesAdmin() {
                 <td className="px-4 py-2">{p.title}</td>
                 <td className="px-4 py-2">
                   <span className={"text-xs px-2 py-0.5 rounded-full " + (p.status === "published" ? "bg-green-100 text-green-700" : "bg-yellow-100 text-yellow-700")}>
-                    {p.status}
+                    {p.status === "published" ? t("status.published", lang) : t("status.draft", lang)}
                   </span>
                 </td>
                 <td className="px-4 py-2 text-xs text-gray-500">{p.template}</td>
                 <td className="px-4 py-2 text-right">
-                  <button onClick={() => setEditing(p)} className="text-blue-600 hover:underline text-xs mr-2">Edit</button>
-                  <button onClick={() => handleDelete(p.id)} className="text-red-600 hover:underline text-xs">Delete</button>
+                  <button onClick={() => setEditing(p)} className="text-blue-600 hover:underline text-xs mr-2">{t("btn.edit", lang)}</button>
+                  <button onClick={() => handleDelete(p.id)} className="text-red-600 hover:underline text-xs">{t("btn.delete", lang)}</button>
                 </td>
               </tr>
             ))}
             {!pages.length && (
-              <tr><td colSpan={6} className="px-4 py-8 text-center text-gray-400">No pages found. Click &quot;Seed Database&quot; on the dashboard first.</td></tr>
+              <tr><td colSpan={6} className="px-4 py-8 text-center text-gray-400">{t("pages.empty", lang)}</td></tr>
             )}
           </tbody>
         </table>

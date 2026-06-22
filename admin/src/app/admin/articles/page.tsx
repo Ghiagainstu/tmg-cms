@@ -1,5 +1,7 @@
 ﻿"use client";
 import { useState, useEffect } from "react";
+import { useLang } from "@/lib/useLang";
+import { t } from "@/lib/i18n";
 
 interface Article {
   id: number; slug: string; lang: string; title: string;
@@ -7,12 +9,12 @@ interface Article {
   publish_date: string; author: string; updated_at: string;
 }
 
-const LANGS = ["en", "ja", "ko"];
+const CONTENT_LANGS = ["en", "ja", "ko"];
 
 export default function ArticlesAdmin() {
+  const { lang } = useLang();
   const [articles, setArticles] = useState<Article[]>([]);
   const [filterLang, setFilterLang] = useState("");
-  const [saving, setSaving] = useState(false);
 
   async function load() {
     const q = filterLang ? `?lang=${filterLang}` : "";
@@ -24,7 +26,7 @@ export default function ArticlesAdmin() {
   useEffect(() => { load(); }, [filterLang]);
 
   async function handleDelete(id: number) {
-    if (!confirm("Delete this article?")) return;
+    if (!confirm(t("articles.deleteConfirm", lang))) return;
     await fetch(`/admin/api/articles?id=${id}`, { method: "DELETE" });
     load();
   }
@@ -32,13 +34,13 @@ export default function ArticlesAdmin() {
   return (
     <div>
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold text-gray-900">Articles</h1>
+        <h1 className="text-2xl font-bold text-gray-900">{t("articles.title", lang)}</h1>
         <div className="flex gap-2">
           <select value={filterLang} onChange={(e) => setFilterLang(e.target.value)} className="border rounded px-3 py-1.5 text-sm">
-            <option value="">All Languages</option>
-            {LANGS.map((l) => <option key={l} value={l}>{l.toUpperCase()}</option>)}
+            <option value="">{t("articles.allLangs", lang)}</option>
+            {CONTENT_LANGS.map((l) => <option key={l} value={l}>{l.toUpperCase()}</option>)}
           </select>
-          <a href="/admin/articles/new" className="px-4 py-1.5 bg-green-600 text-white rounded text-sm hover:bg-green-700">+ New Article</a>
+          <a href="/admin/articles/new" className="px-4 py-1.5 bg-green-600 text-white rounded text-sm hover:bg-green-700">{t("articles.new", lang)}</a>
         </div>
       </div>
 
@@ -46,13 +48,13 @@ export default function ArticlesAdmin() {
         <table className="w-full text-sm">
           <thead className="bg-gray-50">
             <tr>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Slug</th>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Lang</th>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Title</th>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Category</th>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Status</th>
-              <th className="text-left px-4 py-2 font-medium text-gray-600">Date</th>
-              <th className="text-right px-4 py-2 font-medium text-gray-600">Actions</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("articles.th.slug", lang)}</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("articles.th.lang", lang)}</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("articles.th.title", lang)}</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("articles.th.category", lang)}</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("articles.th.status", lang)}</th>
+              <th className="text-left px-4 py-2 font-medium text-gray-600">{t("articles.th.date", lang)}</th>
+              <th className="text-right px-4 py-2 font-medium text-gray-600">{t("articles.th.actions", lang)}</th>
             </tr>
           </thead>
           <tbody>
@@ -64,17 +66,17 @@ export default function ArticlesAdmin() {
                 <td className="px-4 py-2 text-xs text-gray-500">{a.category}</td>
                 <td className="px-4 py-2">
                   <span className={"text-xs px-2 py-0.5 rounded-full " + (a.status === "published" ? "bg-green-100 text-green-700" : "bg-yellow-100 text-yellow-700")}>
-                    {a.status}
+                    {a.status === "published" ? t("status.published", lang) : t("status.draft", lang)}
                   </span>
                 </td>
                 <td className="px-4 py-2 text-xs text-gray-500">{a.publish_date}</td>
                 <td className="px-4 py-2 text-right">
-                  <button onClick={() => handleDelete(a.id)} className="text-red-600 hover:underline text-xs">Delete</button>
+                  <button onClick={() => handleDelete(a.id)} className="text-red-600 hover:underline text-xs">{t("btn.delete", lang)}</button>
                 </td>
               </tr>
             ))}
             {!articles.length && (
-              <tr><td colSpan={7} className="px-4 py-8 text-center text-gray-400">No articles yet. Use the API to add articles.</td></tr>
+              <tr><td colSpan={7} className="px-4 py-8 text-center text-gray-400">{t("articles.empty", lang)}</td></tr>
             )}
           </tbody>
         </table>
