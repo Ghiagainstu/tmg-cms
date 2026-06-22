@@ -6,6 +6,7 @@ import { t } from "@/lib/i18n";
 export default function AdminDashboard() {
   const { lang } = useLang();
   const [seeding, setSeeding] = useState(false);
+  const [importing, setImporting] = useState(false);
   const [result, setResult] = useState("");
 
   async function handleSeed() {
@@ -21,11 +22,23 @@ export default function AdminDashboard() {
     setSeeding(false);
   }
 
+  async function handleImport() {
+    setImporting(true);
+    setResult("");
+    try {
+      const res = await fetch("/admin/api/import", { method: "POST" });
+      const data = await res.json();
+      setResult(data.ok ? "✅ " + data.message : "❌ " + data.error);
+    } catch (e) {
+      setResult("❌ " + String(e));
+    }
+    setImporting(false);
+  }
+
   return (
     <div>
       <h1 className="text-2xl font-bold text-gray-900 mb-6">{t("dashboard.title", lang)}</h1>
 
-      {/* Quick Stats */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
         {[
           { label: t("dashboard.pages", lang), count: "—", href: "/admin/pages" },
@@ -41,7 +54,6 @@ export default function AdminDashboard() {
         ))}
       </div>
 
-      {/* Actions */}
       <div className="bg-white rounded-lg border border-gray-200 p-6 mb-6">
         <h2 className="text-lg font-semibold text-gray-900 mb-4">{t("actions.title", lang)}</h2>
         <div className="flex gap-3 flex-wrap">
@@ -57,16 +69,19 @@ export default function AdminDashboard() {
             className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 text-sm font-medium">
             {t("actions.manageArticles", lang)}
           </a>
+          <button onClick={handleImport} disabled={importing}
+            className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 text-sm font-medium">
+            {importing ? t("actions.importing", lang) : t("actions.importArticles", lang)}
+          </button>
         </div>
         {result && <p className="mt-3 text-sm">{result}</p>}
       </div>
 
-      {/* Info */}
       <div className="bg-blue-50 rounded-lg border border-blue-200 p-6">
         <h3 className="font-semibold text-blue-900 mb-2">{t("info.title", lang)}</h3>
         <ul className="text-sm text-blue-800 space-y-1">
-          <li>• <strong>{t("info.api", lang)}</strong>{lang === "zh" ? "公开端点：" : "Public endpoints at "}<code>/api/pages</code>, <code>/api/articles</code>, <code>/api/navigation</code>, <code>/api/config</code></li>
-          <li>• <strong>{t("info.admin", lang)}</strong>{lang === "zh" ? "管理接口：" : "CRUD at "}<code>/admin/api/pages</code>, <code>/admin/api/articles</code></li>
+          <li>• <strong>{t("info.api", lang)}</strong>Public endpoints: <code>/api/pages</code>, <code>/api/articles</code>, <code>/api/navigation</code>, <code>/api/config</code></li>
+          <li>• <strong>{t("info.admin", lang)}</strong>CRUD: <code>/admin/api/pages</code>, <code>/admin/api/articles</code>, <code>/admin/api/import</code></li>
           <li>• <strong>{t("info.langs", lang)}</strong>{t("info.langsValue", lang)}</li>
           <li>• <strong>{t("info.db", lang)}</strong>{t("info.dbValue", lang)}</li>
           <li>• <strong>{t("info.deploy", lang)}</strong>{t("info.deployValue", lang)}</li>
