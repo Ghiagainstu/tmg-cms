@@ -3,9 +3,11 @@ import initSqlJs, { Database } from "sql.js";
 import fs from "fs";
 import path from "path";
 
+const IS_VERCEL = !!process.env.VERCEL;
 const DB_PATH = path.join(process.cwd(), "data", "tmg-cms.sqlite");
 
 let _db: Database | null = null;
+let _seeded = false;
 
 export async function getDb(): Promise<Database> {
   if (_db) return _db;
@@ -14,22 +16,33 @@ export async function getDb(): Promise<Database> {
     locateFile: (file: string) => path.join(process.cwd(), "node_modules", "sql.js", "dist", file),
   });
   
-  // Ensure data directory exists
-  const dataDir = path.dirname(DB_PATH);
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-  }
-  
-  // Load or create database
-  if (fs.existsSync(DB_PATH)) {
-    const buffer = fs.readFileSync(DB_PATH);
-    _db = new SQL.Database(buffer);
-  } else {
+  if (IS_VERCEL) {
+    // Vercel: use in-memory database, auto-seed on first access
     _db = new SQL.Database();
+    initSchema(_db);
+    if (!_seeded) {
+      _seeded = true;
+      try {
+        const { seed } = await import("./seed");
+        await seed();
+      } catch (e) {
+        console.log("Auto-seed skipped:", e);
+      }
+    }
+  } else {
+    // Local: load from file or create new
+    const dataDir = path.dirname(DB_PATH);
+    if (!fs.existsSync(dataDir)) {
+      fs.mkdirSync(dataDir, { recursive: true });
+    }
+    if (fs.existsSync(DB_PATH)) {
+      const buffer = fs.readFileSync(DB_PATH);
+      _db = new SQL.Database(buffer);
+    } else {
+      _db = new SQL.Database();
+      initSchema(_db);
+    }
   }
-  
-  // Initialize schema
-  initSchema(_db);
   
   return _db;
 }
@@ -130,10 +143,13 @@ function initSchema(db: Database) {
     )
   `);
 
-  saveDb(db);
+  if (!IS_VERCEL) {
+    saveDb(db);
+  }
 }
 
 export function saveDb(db: Database) {
+  if (IS_VERCEL) return; // Skip file writes on Vercel
   const data = db.export();
   const buffer = Buffer.from(data);
   const dataDir = path.dirname(DB_PATH);
@@ -143,7 +159,7 @@ export function saveDb(db: Database) {
   fs.writeFileSync(DB_PATH, buffer);
 }
 
-// ─── Query Helpers ───
+// ??? Query Helpers ???
 
 export function getAllPages(db: Database, lang?: string) {
   const sql = lang
@@ -187,7 +203,7 @@ export function getSiteConfig(db: Database, lang: string) {
   return results[0] || null;
 }
 
-// ─── Utility ───
+// ??? Utility ???
 
 function rowsToObjects(result: { columns: string[]; values: unknown[][] }[]) {
   if (!result.length) return [];
@@ -198,4 +214,3 @@ function rowsToObjects(result: { columns: string[]; values: unknown[][] }[]) {
     return obj;
   });
 }
-
