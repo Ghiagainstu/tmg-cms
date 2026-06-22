@@ -11,7 +11,7 @@ export default function AboutPage() {
       <section className="max-w-4xl mx-auto px-6 pb-16">
         <h2 className="text-2xl font-bold mb-4">Our Story</h2>
         <p className="text-[#b3c0d8] mb-4">
-          China&apos;s digital advertising ecosystem is the world&apos;s most complex �� multiple platforms, unique regulations, different consumer behaviors, and a rapidly evolving AI landscape. International brands and agencies face a steep learning curve.
+          China&apos;s digital advertising ecosystem is the world&apos;s most complex — multiple platforms, unique regulations, different consumer behaviors, and a rapidly evolving AI landscape. International brands and agencies face a steep learning curve.
         </p>
         <p className="text-[#b3c0d8] mb-4">
           TMG was founded to solve this problem. We provide one connection point to all major Chinese advertising platforms, with full-service campaign management, creative localization, and performance optimization.
@@ -25,10 +25,10 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold mb-8 text-center">Our Values</h2>
         <div className="grid md:grid-cols-4 gap-6">
           {[
-            { icon: "??", title: "Platform Expertise", desc: "Deep knowledge of every major Chinese advertising platform and their unique strengths." },
-            { icon: "??", title: "Data-Driven", desc: "Every decision backed by data. Transparent reporting and measurable ROI." },
-            { icon: "????", title: "Local Knowledge", desc: "Understanding of Chinese consumer behavior, culture, and regulatory landscape." },
-            { icon: "??", title: "Full Service", desc: "From strategy to creative to execution �� one partner for your entire China journey." },
+            { icon: "📌", title: "Platform Expertise", desc: "Deep knowledge of every major Chinese advertising platform and their unique strengths." },
+            { icon: "📌", title: "Data-Driven", desc: "Every decision backed by data. Transparent reporting and measurable ROI." },
+            { icon: "📌📌", title: "Local Knowledge", desc: "Understanding of Chinese consumer behavior, culture, and regulatory landscape." },
+            { icon: "📌", title: "Full Service", desc: "From strategy to creative to execution — one partner for your entire China journey." },
           ].map((v) => (
             <div key={v.title} className="bg-[#111827] border border-[#1e2d45] rounded-xl p-6 text-center">
               <div className="text-3xl mb-3">{v.icon}</div>
