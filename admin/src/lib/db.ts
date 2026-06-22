@@ -10,7 +10,9 @@ let _db: Database | null = null;
 export async function getDb(): Promise<Database> {
   if (_db) return _db;
   
-  const SQL = await initSqlJs();
+  const SQL = await initSqlJs({
+    locateFile: (file: string) => path.join(process.cwd(), "node_modules", "sql.js", "dist", file),
+  });
   
   // Ensure data directory exists
   const dataDir = path.dirname(DB_PATH);
@@ -196,3 +198,4 @@ function rowsToObjects(result: { columns: string[]; values: unknown[][] }[]) {
     return obj;
   });
 }
+
