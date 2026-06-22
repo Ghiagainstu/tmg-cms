@@ -81,6 +81,18 @@ export default function ArticlesAdmin() {
           </tbody>
         </table>
       </div>
+
+      {/* Articles Guide */}
+      <div className="bg-blue-50 rounded-lg border border-blue-200 p-4 mb-6">
+        <h3 className="font-semibold text-blue-900 mb-2">{t("guide.articles.title", lang)}</h3>
+        <ul className="text-sm text-blue-800 space-y-1">
+          <li>• {t("guide.articles.1", lang)}</li>
+          <li>• {t("guide.articles.2", lang)}</li>
+          <li>• {t("guide.articles.3", lang)}</li>
+        </ul>
+        <p className="text-xs text-blue-600 mt-2">{t("guide.articles.tip", lang)}</p>
+      </div>
+
     </div>
   );
 }

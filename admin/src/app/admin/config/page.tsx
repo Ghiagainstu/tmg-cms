@@ -17,6 +17,18 @@ export default function ConfigAdmin() {
   return (
     <div>
       <h1 className="text-2xl font-bold text-gray-900 mb-6">{t("config.title", lang)}</h1>
+
+      {/* ???? */}
+      <div className="bg-purple-50 border border-purple-200 rounded-lg p-5 mb-6">
+        <h3 className="text-purple-900 font-semibold mb-3 text-sm">{t("guide.config.title", lang)}</h3>
+        <ul className="text-purple-800 text-sm space-y-2 list-disc list-inside">
+          <li>{t("guide.config.1", lang)}</li>
+          <li>{t("guide.config.2", lang)}</li>
+          <li>{t("guide.config.3", lang)}</li>
+        </ul>
+        <p className="text-purple-700 text-xs mt-3 italic">{t("guide.config.tip", lang)}</p>
+      </div>
+
       <div className="bg-white rounded-lg border border-gray-200 p-6">
         <div className="flex gap-2 mb-4">
           {CONTENT_LANGS.map(l => (

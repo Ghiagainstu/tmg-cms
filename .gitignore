@@ -41,3 +41,13 @@ next-env.d.ts
 
 # Legacy scripts and HTML artifacts (keep in archive)
 # Root-level .py/.js/.html files are archived legacy
+
+# Uploads
+admin/public/uploads/
+
+# Dev logs
+*.log
+admin/dev-server.log
+
+# Archive (already in _archive/)
+_archive/

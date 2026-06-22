@@ -106,6 +106,32 @@ export default function AdminDashboard() {
           <li>• <strong>{t("info.deploy", lang)}</strong>{t("info.deployValue", lang)}</li>
         </ul>
       </div>
+
+      {/* Quick Guide */}
+      <div className="bg-green-50 rounded-lg border border-green-200 p-6 mt-6">
+        <h3 className="font-semibold text-green-900 mb-3">{t("guide.title", lang)}</h3>
+        <div className="grid md:grid-cols-2 gap-4 text-sm text-green-800">
+          <div>
+            <h4 className="font-medium mb-2">{t("guide.init.title", lang)}</h4>
+            <ol className="list-decimal list-inside space-y-1">
+              <li>{t("guide.init.1", lang)}</li>
+              <li>{t("guide.init.2", lang)}</li>
+              <li>{t("guide.init.3", lang)}</li>
+            </ol>
+          </div>
+          <div>
+            <h4 className="font-medium mb-2">{t("guide.daily.title", lang)}</h4>
+            <ul className="list-disc list-inside space-y-1">
+              <li>{t("guide.daily.1", lang)}</li>
+              <li>{t("guide.daily.2", lang)}</li>
+              <li>{t("guide.daily.3", lang)}</li>
+              <li>{t("guide.daily.4", lang)}</li>
+            </ul>
+          </div>
+        </div>
+        <p className="mt-3 text-xs text-green-600">{t("guide.tip", lang)}</p>
+      </div>
+
     </div>
   );
 }

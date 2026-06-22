@@ -47,7 +47,7 @@ export default function MediaAdmin() {
   }
 
   async function handleDelete(id: number) {
-    if (!confirm(lang === "zh" ? "ȷ��ɾ������ͼƬ��" : "Delete this image?")) return;
+    if (!confirm(lang === "zh" ? "确认删除这张图片吗？" : "Delete this image?")) return;
     await fetch(`/admin/api/media?id=${id}`, { method: "DELETE" });
     load();
   }
@@ -63,21 +63,21 @@ export default function MediaAdmin() {
 
       {/* Upload */}
       <div className="bg-white rounded-lg border border-gray-200 p-6 mb-6">
-        <h2 className="text-lg font-semibold mb-4">{lang === "zh" ? "�ϴ�ͼƬ" : "Upload Image"}</h2>
+        <h2 className="text-lg font-semibold mb-4">{lang === "zh" ? "上传图片" : "Upload Image"}</h2>
         <div className="flex items-center gap-4">
           <input ref={fileRef} type="file" accept="image/*" className="text-sm" />
           <button onClick={handleUpload} disabled={uploading}
             className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 text-sm font-medium">
-            {uploading ? (lang === "zh" ? "�ϴ���..." : "Uploading...") : (lang === "zh" ? "�ϴ�" : "Upload")}
+            {uploading ? (lang === "zh" ? "上传中..." : "Uploading...") : (lang === "zh" ? "上传" : "Upload")}
           </button>
         </div>
-        <p className="text-xs text-gray-400 mt-2">{lang === "zh" ? "֧�� JPG/PNG/GIF/WebP/SVG����� 10MB" : "Supports JPG/PNG/GIF/WebP/SVG, max 10MB"}</p>
+        <p className="text-xs text-gray-400 mt-2">{lang === "zh" ? "支持 JPG/PNG/GIF/WebP/SVG，最大 10MB" : "Supports JPG/PNG/GIF/WebP/SVG, max 10MB"}</p>
         {result && <p className="mt-2 text-sm">{result}</p>}
       </div>
 
       {/* Media Grid */}
       <div className="bg-white rounded-lg border border-gray-200 p-6">
-        <h2 className="text-lg font-semibold mb-4">{lang === "zh" ? "ý���" : "Media Library"} ({items.length})</h2>
+        <h2 className="text-lg font-semibold mb-4">{lang === "zh" ? "媒体库" : "Media Library"} ({items.length})</h2>
         {items.length > 0 ? (
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {items.map((item) => (
@@ -90,20 +90,32 @@ export default function MediaAdmin() {
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-2">
                   <button onClick={() => copyUrl(`/uploads/${item.filename}`)}
                     className="px-2 py-1 bg-white text-gray-800 rounded text-xs hover:bg-gray-100">
-                    {lang === "zh" ? "����URL" : "Copy URL"}
+                    {lang === "zh" ? "复制URL" : "Copy URL"}
                   </button>
                   <button onClick={() => handleDelete(item.id)}
                     className="px-2 py-1 bg-red-600 text-white rounded text-xs hover:bg-red-700">
-                    {lang === "zh" ? "ɾ��" : "Delete"}
+                    {lang === "zh" ? "删除" : "Delete"}
                   </button>
                 </div>
               </div>
             ))}
           </div>
         ) : (
-          <p className="text-gray-400 text-sm">{lang === "zh" ? "����ý���ļ����ϴ���һ��ͼƬ�ɣ�" : "No media files yet. Upload your first image!"}</p>
+          <p className="text-gray-400 text-sm">{lang === "zh" ? "还没有媒体文件，上传你的第一张图片吧！" : "No media files yet. Upload your first image!"}</p>
         )}
       </div>
+
+      {/* Media Guide */}
+      <div className="bg-orange-50 rounded-lg border border-orange-200 p-4 mb-6">
+        <h3 className="font-semibold text-orange-900 mb-2">{t("guide.media.title", lang)}</h3>
+        <ul className="text-sm text-orange-800 space-y-1">
+          <li>• {t("guide.media.1", lang)}</li>
+          <li>• {t("guide.media.2", lang)}</li>
+          <li>• {t("guide.media.3", lang)}</li>
+        </ul>
+        <p className="text-xs text-orange-600 mt-2">{t("guide.media.tip", lang)}</p>
+      </div>
+
     </div>
   );
 }

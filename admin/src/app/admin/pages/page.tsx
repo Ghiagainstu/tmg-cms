@@ -1,7 +1,10 @@
-"use client";
+﻿"use client";
 import { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 import { useLang } from "@/lib/useLang";
 import { t } from "@/lib/i18n";
+
+const RichEditor = dynamic(() => import("@/components/RichEditor"), { ssr: false, loading: () => <p>Loading editor...</p> });
 
 interface Page {
   id: number; slug: string; lang: string; title: string;
@@ -17,15 +20,30 @@ export default function PagesAdmin() {
   const [filterLang, setFilterLang] = useState("");
   const [editing, setEditing] = useState<Page | null>(null);
   const [saving, setSaving] = useState(false);
+  const [content, setContent] = useState("");
 
   async function load() {
-    const q = filterLang ? `?lang=${filterLang}` : "";
-    const res = await fetch(`/api/pages${q}`);
+    const q = filterLang ? "?lang=" + filterLang : "";
+    const res = await fetch("/api/pages" + q);
     const data = await res.json();
     setPages(Array.isArray(data) ? data : []);
   }
 
   useEffect(() => { load(); }, [filterLang]);
+
+  function handleEdit(page: Page) {
+    setEditing(page);
+    try {
+      const blocks = JSON.parse(page.blocks);
+      if (blocks.length > 0 && blocks[0].content) {
+        setContent(blocks[0].content);
+      } else {
+        setContent("");
+      }
+    } catch {
+      setContent("");
+    }
+  }
 
   async function handleSave(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -39,17 +57,18 @@ export default function PagesAdmin() {
       meta_description: fd.get("meta_description") as string,
       status: fd.get("status") as string,
       template: fd.get("template") as string,
-      blocks: editing.blocks ? JSON.parse(editing.blocks as unknown as string) : [],
+      blocks: [{ type: "rich_text", content: content }],
     };
     await fetch("/admin/api/pages", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
     setEditing(null);
+    setContent("");
     setSaving(false);
     load();
   }
 
   async function handleDelete(id: number) {
     if (!confirm(t("pages.deleteConfirm", lang))) return;
-    await fetch(`/admin/api/pages?id=${id}`, { method: "DELETE" });
+    await fetch("/admin/api/pages?id=" + id, { method: "DELETE" });
     load();
   }
 
@@ -62,15 +81,14 @@ export default function PagesAdmin() {
             <option value="">{t("pages.allLangs", lang)}</option>
             {CONTENT_LANGS.map((l) => <option key={l} value={l}>{l.toUpperCase()}</option>)}
           </select>
-          <button onClick={() => setEditing({ id: 0, slug: "", lang: "en", title: "", meta_description: "", status: "draft", template: "default", blocks: "[]", updated_at: "" })}
-            className="px-4 py-1.5 bg-blue-600 text-white rounded text-sm hover:bg-blue-700">{t("pages.new", lang)}</button>
+          <a href="/admin/pages/new" className="px-4 py-1.5 bg-blue-600 text-white rounded text-sm hover:bg-blue-700">{t("pages.new", lang)}</a>
         </div>
       </div>
 
       {editing && (
-        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
-          <form onSubmit={handleSave} className="bg-white rounded-xl p-6 w-full max-w-lg shadow-xl">
-            <h2 className="text-lg font-bold mb-4">{editing.id ? t("pages.edit", lang) : t("pages.create", lang)}</h2>
+        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50 overflow-y-auto">
+          <form onSubmit={handleSave} className="bg-white rounded-xl p-6 w-full max-w-4xl shadow-xl my-8">
+            <h2 className="text-lg font-bold mb-4">{t("pages.edit", lang)}</h2>
             <div className="space-y-3">
               <div className="grid grid-cols-2 gap-3">
                 <div>
@@ -105,9 +123,13 @@ export default function PagesAdmin() {
                   <input name="template" defaultValue={editing.template} className="w-full border rounded px-3 py-1.5 text-sm" />
                 </div>
               </div>
+              <div>
+                <label className="text-xs text-gray-500 mb-2 block">{lang === "zh" ? "\u9875\u9762\u5185\u5BB9" : "Page Content"}</label>
+                <RichEditor content={content} onChange={setContent} />
+              </div>
             </div>
             <div className="flex justify-end gap-2 mt-5">
-              <button type="button" onClick={() => setEditing(null)} className="px-4 py-1.5 border rounded text-sm">{t("btn.cancel", lang)}</button>
+              <button type="button" onClick={() => { setEditing(null); setContent(""); }} className="px-4 py-1.5 border rounded text-sm">{t("btn.cancel", lang)}</button>
               <button type="submit" disabled={saving} className="px-4 py-1.5 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 disabled:opacity-50">
                 {saving ? t("btn.saving", lang) : t("btn.save", lang)}
               </button>
@@ -141,7 +163,7 @@ export default function PagesAdmin() {
                 </td>
                 <td className="px-4 py-2 text-xs text-gray-500">{p.template}</td>
                 <td className="px-4 py-2 text-right">
-                  <button onClick={() => setEditing(p)} className="text-blue-600 hover:underline text-xs mr-2">{t("btn.edit", lang)}</button>
+                  <button onClick={() => handleEdit(p)} className="text-blue-600 hover:underline text-xs mr-2">{t("btn.edit", lang)}</button>
                   <button onClick={() => handleDelete(p.id)} className="text-red-600 hover:underline text-xs">{t("btn.delete", lang)}</button>
                 </td>
               </tr>
@@ -152,6 +174,18 @@ export default function PagesAdmin() {
           </tbody>
         </table>
       </div>
+
+      {/* Pages Guide */}
+      <div className="bg-purple-50 rounded-lg border border-purple-200 p-4 mb-6 mt-6">
+        <h3 className="font-semibold text-purple-900 mb-2">{t("guide.pages.title", lang)}</h3>
+        <ul className="text-sm text-purple-800 space-y-1">
+          <li>{"\u2022"} {t("guide.pages.1", lang)}</li>
+          <li>{"\u2022"} {t("guide.pages.2", lang)}</li>
+          <li>{"\u2022"} {t("guide.pages.3", lang)}</li>
+        </ul>
+        <p className="text-xs text-purple-600 mt-2">{t("guide.pages.tip", lang)}</p>
+      </div>
+
     </div>
   );
 }
