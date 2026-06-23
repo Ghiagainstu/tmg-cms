@@ -10,13 +10,13 @@ export default function Page() {
         <p className="text-xs uppercase tracking-widest text-[#c9a84c] mb-4">Performance Marketing</p>
         <h1 className="text-3xl md:text-5xl font-bold leading-tight max-w-4xl mx-auto">Conversion Optimization for China Landing Pages</h1>
         <p className="mt-4 text-[#b3c0d8] max-w-3xl mx-auto">A comprehensive guide for international brands optimizing landing pages for China\'s digital platforms, covering platform-specific best practices, A/B testing frameworks, user experience design, and conversion rate optimization strategies for WeChat, Douyin, Tmall, and JD.com.</p>
-        <p className="mt-3 text-sm text-[#8899b5]">TMG Editorial · June 23, 2026 · 15 min read</p>
+        <p className="mt-3 text-sm text-[#8899b5]">TMG Editorial �� June 23, 2026 �� 15 min read</p>
       </header>
 
       <article className="max-w-4xl mx-auto px-6 pb-20 space-y-10">
         <section className="space-y-4">
           <h2 className="text-2xl font-semibold">Why conversion optimization requires China-specific approaches</h2>
-          <p className="text-[#dce4f0]">Optimizing landing pages for China\'s digital ecosystem requires specialized approaches that account for unique user behaviors, platform-specific design conventions, technical considerations, and cultural preferences. Unlike Western markets where landing page optimization follows more standardized patterns, China\'s diverse platform landscape—from WeChat mini-programs to Tmall product pages—demands tailored optimization strategies that respect each platform\'s design language while maximizing conversion potential. International brands that master conversion optimization in China can achieve significantly higher ROI on their advertising investments while building more effective customer acquisition funnels.</p>
+          <p className="text-[#dce4f0]">Optimizing landing pages for China\'s digital ecosystem requires specialized approaches that account for unique user behaviors, platform-specific design conventions, technical considerations, and cultural preferences. Unlike Western markets where landing page optimization follows more standardized patterns, China\'s diverse platform landscape��from WeChat mini-programs to Tmall product pages��demands tailored optimization strategies that respect each platform\'s design language while maximizing conversion potential. International brands that master conversion optimization in China can achieve significantly higher ROI on their advertising investments while building more effective customer acquisition funnels.</p>
           <p className="text-[#dce4f0]">Chinese consumers exhibit distinct browsing and purchasing behaviors that differ from Western users, including different expectations for page load speed, content presentation, trust signals, and call-to-action placement. Additionally, technical considerations like China\'s unique mobile ecosystem, payment integration requirements, and platform-specific design constraints create optimization challenges that require deep understanding of local market dynamics and user experience best practices.</p>
         </section>
 
@@ -127,7 +127,7 @@ export default function Page() {
             <li><strong>Product detail optimization</strong>: Comprehensive product information presentation that meets platform standards and user expectations</li>
             <li><strong>Trust badge integration</strong>: Platform-specific trust indicators, certifications, and authenticity verification elements</li>
             <li><strong>Promotion visibility</strong>: Effective display of discounts, coupons, and promotional offers that drive immediate conversion</li>
-            <li><strong>Cross-sell optimization</str ong>: Strategic product recommendations and complementary product suggestions that increase average order value</li>
+            <li><strong>Cross-sell optimization</strong>: Strategic product recommendations and complementary product suggestions that increase average order value</li>
           </ul>
 
           <h3 className="text-xl font-semibold mt-8">Douyin and short video platform landing pages</h3>
