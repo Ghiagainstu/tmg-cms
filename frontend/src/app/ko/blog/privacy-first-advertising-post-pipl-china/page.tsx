@@ -164,7 +164,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">PIPL 시행 후 중국에서의 프라이버시 우선 광고는 효과적인 타겟팅과 규제 컴플라이언스의 균형을 맞추는 정교한 접근 방식을 필요로 합니다. 성공에는 PIPL 요구사항 이해, 견고한 퍼스트파티 데이터 전략 구현, 프라이버시 보존 타겟팅 기술 채택, 경쟁력 있는 광고 성과를 유지하면서 진화하는 규제 환경에 적응하는 지속 가능한 컴플라이언스 프레임워크 구축이 필요합니다.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>참고 자료</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">전국인민대표대회, "개인정보보호법(PIPL)" — 2021년 11월 1일 시행, 개인 데이터 처리 규제 포괄적 데이터 보호법. Deloitte, "중국 데이터 프라이버시와 광고 2025" — PIPL 이후 광고주의 72%가 퍼스트파티 데이터 전략으로 예산 전환. 중국 정보통신연구원, "광고 데이터 컴플라이언스 2025" — 100만 명 이상 데이터 국경 간 전송에 보안 평가 필요.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 PIPL 시행 후 중국에서 지속 가능하고 컴플라이언스를 갖춘 운영을 구축하면서 효과적인 캠페인 성과를 유지하는 정교한 프라이버시 우선 광고 전략 구현을 지원합니다.</p>

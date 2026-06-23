@@ -164,7 +164,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">라이브커머스 2.0은 중국 이커머스의 다음 진화를 대표하며, 국제 브랜드에게 참여, 전환, 충성도를 추진하는 몰입형이고 인터랙티브한 쇼핑 경험을 만들 수 있는 전례 없는 기회를 제공합니다. 성공에는 AR 피팅 기술의 구현, 멀티호스트 협업 포맷의 개발, 게이미피케이션 요소의 통합, 전략을 최적화하고 ROI를 극대화하기 위한 비즈니스 성과에 대한 이러한 혁신의 영향 측정이 필요합니다.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>참고 자료</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">iResearch, "중국 라이브커머스 보고서 2025" — 라이브커머스 시장 5조 3,000억 위안 초과, 인터랙티브 포맷 전년 대비 60% 성장. 더우인 공식, "더우인 커머스 생태계 2025" — 투표·퀴즈·클릭 가능 상품 등 인터랙티브 기능으로 시청자→구매자 전환율 35% 향상. Kantar, "라이브커머스의 미래 2025" — 중국 소비자 68%가 인터랙티브 라이브 세션에서 구매 경험 보유.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 중국의 경쟁이 치열한 이커머스 시장에서 몰입형 쇼핑 경험을 만들고 측정 가능한 비즈니스 결과를 추진하는 차세대 라이브커머스 2.0 전략 구현을 지원합니다.</p>

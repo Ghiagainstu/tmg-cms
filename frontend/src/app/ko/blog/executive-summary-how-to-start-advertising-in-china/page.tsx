@@ -95,7 +95,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">중국에서 광고를 시작하는 가장 좋은 방법은 가장 큰 아이디어가 아닌 가장 명확한 계획에서 시작하는 것입니다. 목적을 정의하고, 플랫폼 선택을 단순화하고, 운영 준비를 먼저 갖춘 경영진은 보통 더 강력한 첫 캠페인을 만들어냅니다.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>참고 자료</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">GroupM, "This Year Next Year: 중국 2025" — 중국 광고 총지출 1조 2,000억 위안, 디지털이 총 미디어 투자의 82% 비중. eMarketer, "중국 디지털 광고 지출 2025" — 중국은 미국에 이은 세계 2위 디지털 광고 시장, 전년 대비 12.4% 성장. McKinsey, "중국 소비자 보고서 2025" — 4억 명 이상 중산층이 1~3선 도시 프리미엄 브랜드 수요를 주도.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 광고주가 중국 시장 진출을 보다 명확하고 구조화된 프로세스로 전환하여 경영진이 투자 확대 전에 더 나은 1단계 의사결정을 내릴 수 있도록 지원합니다.</p>

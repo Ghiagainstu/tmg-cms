@@ -95,7 +95,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">The best way to start advertising in China is not to begin with the biggest idea, but with the clearest plan. Executive teams that define the objective, simplify the platform choice, and prepare operational readiness first usually create stronger first campaigns.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Sources</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">GroupM, "This Year Next Year: China 2025" — China total ad spend reached RMB 1.2 trillion, with digital accounting for 82% of total media investment. eMarketer, "China Digital Ad Spending 2025" — China is the world second-largest digital advertising market after the US, with 12.4% YoY growth. McKinsey, "China Consumer Report 2025" — Over 400 million middle-class consumers drive premium brand demand across Tier-1 through Tier-3 cities.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international advertisers turn China market entry into a clearer, more structured process, so leadership teams can make better first-phase decisions before scaling investment.</p>

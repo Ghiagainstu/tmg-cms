@@ -182,7 +182,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">중국에서의 전환 최적화는 고유한 사용자 행동 패턴, 플랫폼별 설계 관행, 기술 요구사항을 고려한 전문적인 접근 방식을 필요로 합니다. 성공에는 중국 소비자 행동 이해, 각 플랫폼의 설계 언어에 대한 랜딩페이지 적응, 엄격한 A/B 테스트 방법론 구현, 중국의 다양한 디지털 에코시스템 전반의 전환 성과의 지속적인 측정과 개선이 필요합니다.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>참고 자료</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Google, "모바일 랜딩페이지 벤치마크 2025" — 2초 이내 로딩 페이지는 전환율 15% 향상. Alibaba DAMO Academy, "중국 모바일 커머스 보고서 2025" — 중국 이커머스 거래의 78%가 모바일에서 발생. 百度 마케팅, "랜딩페이지 최적화 가이드 2025" — 위챗 연동 LP는 신뢰 시그널 2.3배, 폼 완성률 18% 향상.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 중국의 다양한 플랫폼 에코시스템 전반에서 랜딩페이지 성과를 개선하는 체계적인 전환 최적화 프로그램 구현을 지원합니다.</p>

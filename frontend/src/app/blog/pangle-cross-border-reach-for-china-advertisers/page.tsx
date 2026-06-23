@@ -88,7 +88,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Pangle is a valuable channel for brands with cross-border objectives, but it serves a different purpose than mainland China platforms. Understanding when Pangle is the right tool — and when domestic platforms are better — is the key to building an effective cross-border media plan.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Sources</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">TikTok for Business, "Pangle Ad Network Overview 2025" — Pangle reaches over 1.5 billion users across 300,000+ apps in global markets outside mainland China. AppsFlyer, "State of Mobile Advertising 2025" — Pangle ranked among the top 5 ad networks for gaming app installs in Southeast Asia and the Middle East. Sensor Tower, "Cross-Border Ad Spend Report 2025" — Advertisers using Pangle for cross-border campaigns saw 28% lower CPI compared to other global ad networks.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands evaluate cross-border advertising opportunities and build media strategies that combine the right platforms for their specific market objectives.</p>

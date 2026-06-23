@@ -177,7 +177,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">중국에서의 DTC 브랜드 광고는 플랫폼 지배 에코시스템, 치열한 경쟁, 운영 복잡성의 고유한 과제를 고려한 단계적이고 전략적인 접근 방식을 필요로 합니다. 성공은 철저한 시장 평가, 규율 있는 플랫폼 시퀀싱, 문화적으로 적응된 크리에이티브 전략, 제로에서 의미 있는 시장 존재감으로의 데이터 기반 최적화와 지속 가능한 성장을 가능하게 하는 견고한 측정 프레임워크에 달려 있습니다.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>참고 자료</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Bain & Company, "중국 DTC 브랜드 보고서 2025" — 중국 DTC 시장 전년 대비 32% 성장, 신규 브랜드 60% 이상이 디지털 퍼스트 전략 채택. McKinsey, "중국 소비자 보고서 2025" — 중국 소비자 73%가 SNS에서 신규 브랜드 발견, 45%가 첫 구매를 온라인에서 실행. Tmall Global, "DTC 브랜드 가속기 보고서 2025" — 해외 DTC 브랜드의 중국 시장 진출 성공률은 플랫폼 지원 활용 시 2.5배 향상.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 지속 가능한 광고 운영을 구축하고 측정 가능한 비즈니스 결과를 추진하는 구조화된 전략을 통해 국제 DTC 브랜드의 중국 시장 진출을 지원합니다.</p>

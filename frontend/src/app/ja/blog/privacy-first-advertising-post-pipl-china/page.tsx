@@ -164,7 +164,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">PIPL施行後の中国でのプライバシーファースト広告は、効果的なターゲティングと規制コンプライアンスのバランスを取る sophisticated なアプローチを必要とします。成功には、PIPL要件の理解、堅牢なファーストパーティデータ戦略の実装、プライバシー保護ターゲティング技術の採用、競争力のある広告パフォーマンスを維持 while 進化する規制環境に適応する持続可能なコンプライアンスフレームワークの構築が必要です。</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>参考文献</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">全国人民代表大会「個人情報保護法（PIPL）」— 2021年11月1日施行。個人データ処理を規制する包括的データ保護法。 Deloitte「中国データプライバシーと広告2025」— PIPL施行以来、広告主の72%がファーストパーティデータ戦略に予算シフト。 中国情報通信研究院「広告データコンプライアンス2025」— 100万人超ユーザーデータの越境転送にセキュリティ評価が必要。</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、PIPL施行後の中国で持続可能な準拠オペレーションを構築 while 効果的なキャンペーンパフォーマンスを維持する sophisticated なプライバシーファースト広告戦略の実装を支援します。</p>

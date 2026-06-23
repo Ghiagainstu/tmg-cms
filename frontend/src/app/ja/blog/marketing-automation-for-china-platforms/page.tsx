@@ -163,7 +163,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">中国のマーケティングオートメーションは、国のユニークなプラットフォームエコシステム、WeChat中心のコミュニケーション、洗練された消費者期待を考慮した specialized なアプローチを必要とします。成功には、プラットフォーム全体で統合され、パーソナライズされた体験を提供し、プライバシー規制に準拠しながら測定可能なビジネス成果を推進するオートメーションワークフローの構築が必要です。</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>参考文献</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Forrester「中国マーケティングオートメーション2025」— 中国の国際ブランドの67%が12ヶ月以内にマーケティングオートメーション投資増加を計画。 微信公式「微信エコシステムレポート2025」— 微信ミニプログラムは取引総額3兆元以上を処理。 McKinsey「中国マーケティングテクノロジー環境2025」— 中国マテック市場は前年比28%成長。</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、中国の複雑なプラットフォームエコシステム全体で機能し、測定可能なビジネス成果を提供する sophisticated なマーケティングオートメーションワークフローの実装を支援します。</p>

@@ -88,7 +88,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">中国のショートビデオコマースは抖音だけの戦略ではなく、マルチプラットフォームの機会です。快手、ビデオアカウント、ビリビリ、小紅書それぞれの強みを理解した国際ブランドは、市場全体にわたってより強固で効果的なコマースプレゼンスを構築できます。</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>参考文献</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">QuestMobile「中国ショートビデオ産業レポート2025」— ショートビデオプラットフォームの合計月間アクティブユーザーは10億人に到達。 快手2024年次報告 — 月間アクティブユーザー7.14億人、ライブコマースGMVは前年比30%成長。 小紅書公式「REDコマースエコシステム2025」— MAU3.2億人突破、コンテンツ→購入のCVRは業界平均の2倍。</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、国際ブランドが中国のショートビデオコマースプラットフォームを評価し、各プラットフォームのオーディエンス、文化、コマースモデルに合ったマルチプラットフォーム戦略を構築するお手伝いをします。</p>

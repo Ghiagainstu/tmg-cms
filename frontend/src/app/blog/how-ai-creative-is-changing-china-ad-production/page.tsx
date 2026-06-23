@@ -100,7 +100,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">AI creative is becoming a valuable tool for China ad production, especially for high-volume tasks like copy testing, format adaptation, and localization. However, it works best as part of a structured workflow with human oversight — not as a replacement for strategic creative thinking and compliance review.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Sources</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">McKinsey, "The State of AI in Marketing 2025" — 65% of marketing organizations globally now use generative AI in at least one business function. Baidu Marketing, "AI Creative Tools Report 2025" — AI-generated ad variants showed 22% higher A/B test efficiency in China campaigns. Cyberspace Administration of China, "Interim Measures for Generative AI Services" — Effective August 2023, requiring disclosure of AI-generated content in commercial contexts.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international advertisers integrate AI creative tools into their China ad production workflow, balancing speed and volume with quality and compliance standards.</p>

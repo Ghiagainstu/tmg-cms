@@ -138,7 +138,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Healthcare and wellness advertising in China is one of the most regulated categories. The brands that succeed usually invest in compliance preparation and localized creative strategy before they invest in media spend. Getting the foundation right prevents expensive approval delays and account risks.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Sources</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">State Administration for Market Regulation, "Advertising Law of the PRC (2021 Revision)" — Article 18 prohibits absolute claims in health supplement advertising; Article 16 requires prior approval for medical device ads. Frost & Sullivan, "China Healthcare Market Report 2025" — China healthcare advertising spend reached RMB 89 billion, with digital channels accounting for 62%. National Medical Products Administration, "Health Supplement Advertising Guidelines 2025" — Mandatory disclaimer text and prohibited claim list updated for 2025.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international healthcare and wellness brands navigate China's advertising compliance requirements and build campaigns that are both effective and approval-ready.</p>

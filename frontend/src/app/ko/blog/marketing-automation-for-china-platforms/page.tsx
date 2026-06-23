@@ -163,7 +163,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">중국에서의 마케팅 자동화는 나라의 고유한 플랫폼 에코시스템, WeChat 중심 커뮤니케이션, 정교한 소비자 기대를 고려한 전문적인 접근 방식을 필요로 합니다. 성공에는 플랫폼 전반에서 통합되고, 개인화된 경험을 제공하며, 프라이버시 규정을 준수하면서 측정 가능한 비즈니스 결과를 추진하는 자동화 워크플로우 구축이 필요합니다.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>참고 자료</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Forrester, "중국 마케팅 자동화 2025" — 중국 국제 브랜드의 67%가 12개월 내 마케팅 자동화 투자 증가 계획. 위챗 공식, "위챗 생태계 보고서 2025" — 위챗 미니프로그램은 3조 위안 이상 거래 처리. McKinsey, "중국 마케팅 기술 환경 2025" — 중국 마테크 시장 전년 대비 28% 성장.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 중국의 복잡한 플랫폼 에코시스템 전반에서 작동하고 측정 가능한 비즈니스 결과를 제공하는 정교한 마케팅 자동화 워크플로우 구현을 지원합니다.</p>

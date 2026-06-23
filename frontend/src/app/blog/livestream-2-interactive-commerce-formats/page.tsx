@@ -164,7 +164,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Livestream 2.0 represents the next evolution of ecommerce in China, offering international brands unprecedented opportunities to create immersive, interactive shopping experiences that drive engagement, conversion, and loyalty. Success requires implementing AR try-on technologies, developing multi-host collaboration formats, integrating gamification elements, and measuring the impact of these innovations on business performance to optimize strategies and maximize ROI.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Sources</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">iResearch, "China Livestream Ecommerce Report 2025" — Livestream ecommerce market exceeded RMB 5.3 trillion, with interactive formats growing 60% YoY. Douyin Official, "Douyin Commerce Ecosystem 2025" — Interactive features like polls, quizzes, and clickable products increased viewer-to-buyer conversion by 35%. Kantar, "Future of Live Commerce 2025" — 68% of Chinese consumers have made purchases through interactive livestream sessions.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands implement next-generation Livestream 2.0 strategies that create immersive shopping experiences and drive measurable business results in China\'s competitive ecommerce market.</p>

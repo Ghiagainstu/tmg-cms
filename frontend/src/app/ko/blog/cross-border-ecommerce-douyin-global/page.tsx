@@ -200,7 +200,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">더우인 글로벌숍은 콘텐츠 기반 커머스를 통해 중국 이커머스 시장에 진출하고 확장하려는 국제 브랜드에게 혁신적인 기회를 제공합니다. 성공에는 더우인의 고유한 콘텐츠-커머스 에코시스템 이해, 설득력 있는 콘텐츠 전략 개발, 효과적인 크리에이터 파트너십 구축, 탁월한 고객 경험을 제공하면서 크로스보더 이커머스의 운영 복잡성을 탐색하는 것이 필요합니다.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>참고 자료</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">TikTok Shop, "2024 크로스보더 이커머스 보고서" — 글로벌 GMV 200억 달러 초과, 동남아시아 최고 성장 지역. iiMedia Research, "중국 크로스보더 이커머스 보고서 2025" — 시장 규모 12조 3,000억 위안, 숏비디오 커머스 전년 대비 45% 성장. 중국 상무부, "크로스보더 이커머스 시험지구 업데이트 2025" — 전국 165개 이상 시험지구 승인.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 측정 가능한 비즈니스 결과를 추진하는 콘텐츠 커머스 전략을 통해 국제 브랜드의 더우인 글로벌숍 존재감 확립과 확장을 지원합니다.</p>

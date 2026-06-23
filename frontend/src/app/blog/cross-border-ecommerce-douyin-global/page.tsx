@@ -200,7 +200,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Douyin Global Shop represents a transformative opportunity for international brands to enter and scale in China\'s ecommerce market through content-driven commerce. Success requires understanding Douyin\'s unique content-commerce ecosystem, developing compelling content strategies, building effective creator partnerships, and navigating the operational complexities of cross-border ecommerce while delivering exceptional customer experiences.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Sources</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">TikTok Shop, "2024 Cross-Border Ecommerce Report" — TikTok Shop processed over $20 billion in GMV globally, with Southeast Asia as the fastest-growing region. iiMedia Research, "China Cross-Border Ecommerce Report 2025" — China cross-border ecommerce market reached RMB 12.3 trillion, short-video commerce growing 45% YoY. Ministry of Commerce PRC, "Cross-Border Ecommerce Pilot Zone Update 2025" — Over 165 cross-border ecommerce pilot zones approved across China.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands establish and scale their presence on Douyin Global Shop through content-commerce strategies that drive measurable business results.</p>

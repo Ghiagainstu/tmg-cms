@@ -95,7 +95,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">快手は「もう一つの抖音」ではなく、独自のユーザー層、文化、コマースモデルを持つ独立したプラットフォームです。快手の独自の強みを理解する国際ブランドは、下級都市へのリーチとライブコマース型コンバージョンの貴重なチャネルを切り開くことができます。</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>参考文献</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">快手2024年次報告 — MAU7.14億人、60%以上が2線以下都市のユーザー。 QuestMobile「中国下位都市デジタルライフ2025」— 快手ユーザーの1日平均利用時間86分、ライブコマースのエンゲージメント率は業界平均の40%超。 iResearch「中国ライブコマース広告2025」— 快手の広告収益は前年比25%成長。ライブコマースパフォーマンス広告が牽引。</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、国際ブランドが快手を中国メディア戦略に組み込むべきかどうかを評価し、快手のユーザー層とコマース文化に合ったプラットフォーム専用のキャンペーンを構築するお手伝いをします。</p>

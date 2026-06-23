@@ -177,7 +177,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">中国のDTCブランド広告は、プラットフォーム支配のエコシステム、 intense な競争、運営の複雑さの unique な課題を考慮した段階的で戦略的なアプローチを必要とします。成功は、 thorough な市場評価、規律あるプラットフォームシーケンシング、文化適応されたクリエイティブ戦略、ゼロから meaningful な市場プレゼンスへのデータ駆動の最適化と持続可能な成長を可能にする堅牢な測定フレームワークに依存します。</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>参考文献</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Bain & Company「中国DTCブランドレポート2025」— 中国のDTC市場は前年比32%成長、新興ブランドの60%以上がデジタルファースト戦略を採用。 McKinsey「中国消費者レポート2025」— 中国消費者の73%がSNSで新しいブランドを発見し、45%が初回購入をオンラインで実行。 Tmall Global, "DTC Brand Accelerator Report 2025" — 海外DTCブランドの中国市場参入成功率はプラットフォームサポート活用で2.5倍に向上。</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、持続可能な広告オペレーションを構築し、測定可能なビジネス成果を推進する構造化された戦略を通じて、国際DTCブランドの中国市場参入をナビゲートするのを支援します。</p>

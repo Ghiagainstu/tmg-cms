@@ -138,7 +138,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">中国におけるヘルスケア・ウェルネス広告は最も規制の厳しいカテゴリーの一つです。成功するブランドは通常、メディア出費の前にコンプライアンス準備とローカライズされたクリエイティブ戦略に投資します。基盤を正しく構築することで、高額な審査遅延とアカウントリスクを防ぎます。</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>参考文献</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">国家市場監督管理総局「中華人民共和国広告法（2021年改正）」— 第18条は健康食品広告での絶対的表現を禁止、第16条は医療機器広告の事前承認を要求。 Frost & Sullivan「中国ヘルスケア市場レポート2025」— 中国のヘルスケア広告支出は890億元、デジタルチャネルが62%を占める。 国家薬品監督管理局「健康食品広告ガイドライン2025」— 義務的免責事項テキストと禁止表現リストを2025年更新。</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、国際ヘルスケア・ウェルネスブランドが中国の広告コンプライアンス要件をナビゲートし、効果的かつ審査対応可能なキャンペーンを構築するお手伝いをします。</p>

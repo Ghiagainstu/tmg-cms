@@ -88,7 +88,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Short-video commerce in China is a multi-platform opportunity, not just a Douyin strategy. International brands that understand the distinct strengths of Kuaishou, Video Account, Bilibili, and Xiaohongshu can build a more resilient and effective commerce presence across the market.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Sources</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">QuestMobile, "China Short Video Industry Report 2025" — Short video platforms collectively reach 1 billion monthly active users in China. Kuaishou 2024 Annual Report — Monthly active users reached 714 million, with live commerce GMV growing 30% YoY. Xiaohongshu Official, "RED Commerce Ecosystem 2025" — Monthly active users surpassed 320 million, with content-to-purchase conversion rates 2x industry average.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands evaluate China's short-video commerce platforms and build multi-platform strategies that match each platform's audience, culture, and commerce model.</p>

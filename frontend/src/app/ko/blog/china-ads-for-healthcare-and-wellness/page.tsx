@@ -138,7 +138,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">중국에서의 헬스케어·웰니스 광고는 가장 규제가 엄격한 카테고리 중 하나입니다. 성공하는 브랜드는 보통 미디어 지출 전에 컴플라이언스 준비와 현지화된 크리에이티브 전략에 투자합니다. 기초를 올바르게 구축하면 비싼 심사 지연과 계정 리스크를 방지할 수 있습니다.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>참고 자료</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">국가시장감독관리총국, "중화인민공화국 광고법(2021년 개정)" — 제18조 건강식품 광고의 절대적 표현 금지, 제16조 의료기기 광고 사전 승인 요구. Frost & Sullivan, "중국 헬스케어 시장 보고서 2025" — 중국 헬스케어 광고 지출 890억 위안, 디지털 채널 62% 비중. 국가약품감독관리국, "건강식품 광고 가이드라인 2025" — 의무 면책 조항 텍스트 및 금지 표현 목록 2025년 업데이트.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 헬스케어·웰니스 브랜드가 중국의 광고 컴플라이언스 요건을 탐색하고 효과적이면서도 심사를 통과할 수 있는 캠페인을 구축할 수 있도록 지원합니다.</p>

@@ -197,7 +197,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">Bilibili는 중국에서 가장 참여도가 높은 Z세대·게이머 커뮤니티와 연결을 추구하는 국제 브랜드에게 독특한 기회를 제공합니다. 성공에는 Bilibili의 고유한 커뮤니티 문화 이해, 진정한 콘텐츠 전략 개발, 진실한 크리에이터 파트너십 구축이 필요합니다. Bilibili를 마스터하는 브랜드는 고도로 충성스러운 오디언스에 접근하고 상당한 브랜드 옹호를 추진할 수 있습니다.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>참고 자료</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Bilibili 2024년 4분기 실적 보고서 — 월평균 활성 사용자 3.4억 명, 80%가 18~35세. QuestMobile, "중국 Z세대 모바일 인터넷 보고서 2025" — Bilibili는 1995년 이후 출생 사용자의 최고 콘텐츠 플랫폼. iResearch, "중국 게임 마케팅 백서 2025" — Bilibili는 중국 젊은 사용자 게임 콘텐츠 발견의 주요 플랫폼.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 브랜드가 중국 마케팅 전략의 일환으로 Bilibili를 평가하고 Z세대·게이머 커뮤니티에 공감하는 플랫폼별 캠페인을 구축할 수 있도록 지원합니다.</p>

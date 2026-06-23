@@ -176,7 +176,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">Pinduoduoは、ソーシャルコマースと共同購入メカニクスを通じて中国の価値志向消費者にリーチする国際ブランドにとって massive な機会を represent します。成功には、Pinduoduoのユニークなプラットフォームダイナミクスの理解、価値ポジショニングのための商品戦略の適応、バイラル顧客獲得のためのソーシャルシェアの活用が必要です。Pinduoduoをマスターするブランドは、スケールで highly エンゲージされた価格敏感消費者基盤にアクセスできます。</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>参考文献</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">PDD Holdings 2024年次報告 — 拼多多の年間アクティブバイヤーは9億人を突破、下位都市で力強い成長。 Bain & Company「中国ソーシャルコマースレポート2025」— 拼多多の共同購入モデルは価値志向セグメントで従来EC比40%高いコンバージョン率。 Statista「中国EC市場2025」— 拼多多はGMVベースで中国EC市場の約19%を占める。</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、国際ブランドが中国市場戦略の一部としてPinduoduoを評価し、価値志向消費者に効果的にリーチするプラットフォーム固有のキャンペーンを構築するお手伝いをします。</p>

@@ -163,7 +163,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Marketing automation in China requires specialized approaches that account for the country\'s unique platform ecosystem, WeChat-centric communication, and sophisticated consumer expectations. Success requires building automation workflows that integrate across platforms, deliver personalized experiences, and comply with privacy regulations while driving measurable business outcomes.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Sources</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Forrester, "Marketing Automation in China 2025" — 67% of international brands in China plan to increase marketing automation investment within 12 months. WeChat Official, "WeChat Ecosystem Report 2025" — WeChat Mini Programs processed over RMB 3 trillion in transactions. McKinsey, "China Marketing Technology Landscape 2025" — China MarTech market grew 28% YoY, driven by platform-native automation tools.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands implement sophisticated marketing automation workflows that work across China\'s complex platform ecosystem and deliver measurable business results.</p>

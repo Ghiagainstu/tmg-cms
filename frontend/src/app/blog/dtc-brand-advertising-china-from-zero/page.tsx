@@ -177,7 +177,14 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">DTC brand advertising in China requires a phased, strategic approach that accounts for the unique challenges of platform-dominated ecosystems, intense competition, and operational complexity. Success depends on thorough market assessment, disciplined platform sequencing, culturally-adapted creative strategies, and robust measurement frameworks that enable data-driven optimization and sustainable growth from zero to meaningful market presence.</p>
+        </section>        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Sources</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Bain & Company, "China DTC Brand Report 2025" — China DTC market grew 32% YoY, with over 60% of emerging brands adopting digital-first strategies. McKinsey, "China Consumer Report 2025" — 73% of Chinese consumers discover new brands via social media, with 45% making first purchases online. Tmall Global, "DTC Brand Accelerator Report 2025" — Overseas DTC brands using platform support achieve 2.5x higher success rates in China market entry.</p>
         </section>
+
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international DTC brands navigate China market entry through structured strategies that build sustainable advertising operations and drive measurable business results.</p>
