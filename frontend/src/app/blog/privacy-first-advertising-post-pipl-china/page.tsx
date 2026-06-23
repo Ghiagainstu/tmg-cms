@@ -164,14 +164,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Privacy-first advertising in post-PIPL China requires sophisticated approaches that balance effective targeting with regulatory compliance. Success requires understanding PIPL requirements, implementing robust first-party data strategies, adopting privacy-preserving targeting technologies, and building sustainable compliance frameworks that adapt to the evolving regulatory landscape while maintaining competitive advertising performance.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>Sources</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">National People's Congress, "Personal Information Protection Law (PIPL)" — Effective November 1, 2021, China comprehensive data protection law governing personal data processing. Deloitte, "China Data Privacy and Advertising 2025" — 72% of advertisers in China shifted budgets toward first-party data strategies since PIPL enforcement. CAICT, "Data Compliance in Advertising 2025" — Cross-border data transfer rules require security assessments for advertisers handling over 1 million users data.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Sources</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>National People's Congress, "Personal Information Protection Law (PIPL)" — Effective November 1, 2021, China comprehensive data protection law governing personal data processing.</li>
+            <li>Deloitte, "China Data Privacy and Advertising 2025" — 72% of advertisers in China shifted budgets toward first-party data strategies since PIPL enforcement.</li>
+            <li>CAICT, "Data Compliance in Advertising 2025" — Cross-border data transfer rules require security assessments for advertisers handling over 1 million users data.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Data cited for informational purposes. Verify current figures with original sources.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands implement sophisticated privacy-first advertising strategies that maintain effective campaign performance while building sustainable, compliant operations in post-PIPL China.</p>

@@ -95,14 +95,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Kuaishou is not a secondary Douyin — it is a distinct platform with its own audience, culture, and commerce model. International brands that understand Kuaishou's unique strengths can unlock a valuable channel for lower-tier city reach and live-commerce-driven conversions.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>Sources</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">Kuaishou 2024 Annual Report — Monthly active users reached 714 million, with over 60% from Tier-2 and lower-tier cities. QuestMobile, "China Lower-Tier City Digital Life 2025" — Kuaishou users spend an average of 86 minutes daily, with live commerce engagement rates 40% above industry average. iResearch, "China Live Commerce Advertising 2025" — Kuaishou advertising revenue grew 25% YoY, driven by live-commerce performance ads.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Sources</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Kuaishou 2024 Annual Report — Monthly active users reached 714 million, with over 60% from Tier-2 and lower-tier cities.</li>
+            <li>QuestMobile, "China Lower-Tier City Digital Life 2025" — Kuaishou users spend an average of 86 minutes daily, with live commerce engagement rates 40% above industry average.</li>
+            <li>iResearch, "China Live Commerce Advertising 2025" — Kuaishou advertising revenue grew 25% YoY, driven by live-commerce performance ads.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Data cited for informational purposes. Verify current figures with original sources.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands evaluate whether Kuaishou fits their China media strategy and build platform-specific campaigns that match Kuaishou's audience and commerce culture.</p>

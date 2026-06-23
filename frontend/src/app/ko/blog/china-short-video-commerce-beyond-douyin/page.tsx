@@ -88,14 +88,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">중국의 숏비디오 커머스는 더우인만의 전략이 아닌 멀티 플랫폼 기회입니다. 콰이셔우, 위챗 비디오 계정, 빌리빌리, 샤오홍슈 각각의 강점을 이해한 국제 브랜드는 시장 전반에 걸쳐 보다 견고하고 효과적인 커머스 프레즌스를 구축할 수 있습니다.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>참고 자료</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">QuestMobile, "중국 숏비디오 산업 보고서 2025" — 숏비디오 플랫폼 월간 활성 사용자 합계 10억 명 도달. 콰이셔우 2024 연례 보고서 — 월간 활성 사용자 7.14억 명, 라이브커머스 GMV 전년 대비 30% 성장. 샤오홍슈 공식, "RED 커머스 생태계 2025" — MAU 3.2억 명 돌파, 콘텐츠→구매 전환율 업계 평균 2배.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">참고 자료</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>QuestMobile, "중국 숏비디오 산업 보고서 2025" — 숏비디오 플랫폼 월간 활성 사용자 합계 10억 명 도달.</li>
+            <li>콰이셔우 2024 연례 보고서 — 월간 활성 사용자 7.14억 명, 라이브커머스 GMV 전년 대비 30% 성장.</li>
+            <li>샤오홍슈 공식, "RED 커머스 생태계 2025" — MAU 3.2억 명 돌파, 콘텐츠→구매 전환율 업계 평균 2배.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 브랜드가 중국의 숏비디오 커머스 플랫폼을 평가하고, 각 플랫폼의 오디언스·문화·커머스 모델에 맞는 멀티 플랫폼 전략을 구축할 수 있도록 지원합니다.</p>

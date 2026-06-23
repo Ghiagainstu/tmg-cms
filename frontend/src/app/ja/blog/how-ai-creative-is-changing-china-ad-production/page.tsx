@@ -100,14 +100,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">AIクリエイティブは、特にコピーテスト、フォーマット適応、ローカライゼーションといった大量タスクにおいて、中国広告制作にとって貴重なツールになりつつあります。しかし、戦略的クリエイティブ思考やコンプライアンスレビューを代替するものではなく、構造化されたワークフロー内の人的監視と組み合わせて使用した場合に最も効果を発揮します。</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>参考文献</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">McKinsey「マーケティングにおけるAIの状況2025」— グローバルなマーケティング組織の65%が至少1つの業務に関わるAIを活用。 百度マーケティング「AIクリエイティブツールレポート2025」— AI生成広告バリエーションは中国キャンペーンでA/Bテスト効率が22%向上。 中国国家互联网信息办公室「生成式AIサービス暫定措置」— 2023年8月施行。商用AI生成コンテンツの開示を義務化。</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">参考文献</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>McKinsey「マーケティングにおけるAIの状況2025」— グローバルなマーケティング組織の65%が少なくとも1つの業務に生成AIを活用。</li>
+            <li>百度マーケティング「AIクリエイティブツールレポート2025」— AI生成広告バリエーションは中国キャンペーンでA/Bテスト効率が22%向上。</li>
+            <li>中国国家互联网信息办公室「生成式AIサービス暫定措置」— 2023年8月施行。商用AI生成コンテンツの開示を義務化。</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">情報提供目的のデータです。最新の数値は原著でご確認ください。</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、国際広告主がAIクリエイティブツールを中国広告制作ワークフローに統合し、スピードと量を品質・コンプライアンス基準と両立させるお手伝いをします。</p>

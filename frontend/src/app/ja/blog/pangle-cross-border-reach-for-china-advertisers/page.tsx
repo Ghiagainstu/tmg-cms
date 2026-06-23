@@ -92,14 +92,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">パングルは越境ビジネスの目標を持つブランドにとって貴重なチャネルですが、中国本土のプラットフォームとは異なる目的を果たします。パングルが適切なツールである場合と、国内プラットフォームの方が適切な場合を正確に見極めることが、効果的な越境メディア計画を構築するための鍵となります。市場目標の明確化、ターゲティング戦略の策定、クリエイティブのローカライズ、そして測定体制の整備を着実に行うことで、パングルは越境マーケティングの強力な柱となります。</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>参考文献</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">TikTok for Business「Pangle広告ネットワーク概要2025」— Pangleは中国本土以外のグローバル市場で30万以上のアプリ、15億人以上のユーザーにリーチ。 AppsFlyer「モバイル広告の状況2025」— Pangleは東南アジア・中東のゲームアプリインストール広告ネットワークでトップ5にランクイン。 Sensor Tower「越境広告支出レポート2025」— Pangleを利用した越境キャンペーンは他のグローバル広告ネットワーク比でCPIが28%低い。</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">参考文献</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>TikTok for Business「Pangle広告ネットワーク概要2025」— Pangleは中国本土以外のグローバル市場で30万以上のアプリ、15億人以上のユーザーにリーチ。</li>
+            <li>AppsFlyer「モバイル広告の状況2025」— Pangleは東南アジア・中東のゲームアプリインストール広告ネットワークでトップ5にランクイン。</li>
+            <li>Sensor Tower「越境広告支出レポート2025」— Pangleを利用した越境キャンペーンは他のグローバル広告ネットワーク比でCPIが28%低い。</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">情報提供目的のデータです。最新の数値は原著でご確認ください。</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、国際ブランドが越境広告機会を評価し、特定の市場目標に最適なプラットフォームの組み合わせでメディア戦略を構築するお手伝いをします。パングルの評価から実運用まで、経験豊富なチームがサポートいたします。</p>

@@ -187,14 +187,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">중국에서의 ROI 측정은 월드가든 데이터 환경, 복잡한 크로스플랫폼 여정, 플랫폼별 지표를 고려한 전문적인 프레임워크를 필요로 합니다. 성공에는 정교한 어트리뷰션 모델의 구현, 엄격한 인크리멘탈리티 테스트의 수행, 정확한 미디어 믹스 모델의 구축, 중국의 파편화된 플랫폼 에코시스템 전반의 의사결정을 위한 명확한 가시성을 제공하는 통합 리포팅의 생성이 필요합니다.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>참고 자료</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">GroupM, "This Year Next Year: 중국 2025" — 중국 디지털 광고 시장 6,800억 위안, 측정 고도화는 광고주 최우선 과제. Google & BCG, "마케팅 측정의 미래" — 멀티터치 어트리뷰션은 라스트클릭 대비 ROAS 정확도 25~35% 향상. IAB China, "디지털 광고 측정 기준 2025" — 위챗·더우인·바이두 횡단 통합 보고용 신규 가이드라인.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">참고 자료</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>GroupM, "This Year Next Year: 중국 2025" — 중국 디지털 광고 시장 6,800억 위안, 측정 고도화는 광고주 최우선 과제.</li>
+            <li>Google & BCG, "마케팅 측정의 미래" — 멀티터치 어트리뷰션은 라스트클릭 대비 ROAS 정확도 25~35% 향상.</li>
+            <li>IAB China, "디지털 광고 측정 기준 2025" — 위챗·더우인·바이두 횡단 통합 보고용 신규 가이드라인.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 중국의 복잡한 플랫폼 에코시스템 전반에 걸쳐 정확하고 실행 가능한 인사이트를 제공하는 정교한 ROI 측정 프레임워크 구현을 지원합니다.</p>

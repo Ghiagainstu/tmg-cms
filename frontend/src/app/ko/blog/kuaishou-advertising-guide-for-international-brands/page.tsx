@@ -95,14 +95,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">콰이쇼우는 "또 하나의 두인"이 아니라 고유한 사용자층, 문화, 커머스 모델을 갖춘 독립적인 플랫폼입니다. 콰이쇼우의 고유한 강점을 이해하는 국제 브랜드는 하급 도시 도달과 라이브커머스 기반 전환의 소중한 채널을 확보할 수 있습니다.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>참고 자료</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">콰이셔우 2024 연례 보고서 — MAU 7.14억 명, 60% 이상이 2선 이하 도시 사용자. QuestMobile, "중국 하위 도시 디지털 라이프 2025" — 콰이셔우 사용자 일일 평균 86분 사용, 라이브커머스 엔게이지먼트율 업계 평균 대비 40% 초과. iResearch, "중국 라이브커머스 광고 2025" — 콰이셔우 광고 수익 전년 대비 25% 성장, 라이브커머스 퍼포먼스 광고가 주도.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">참고 자료</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>콰이셔우 2024 연례 보고서 — MAU 7.14억 명, 60% 이상이 2선 이하 도시 사용자.</li>
+            <li>QuestMobile, "중국 하위 도시 디지털 라이프 2025" — 콰이셔우 사용자 일일 평균 86분 사용, 라이브커머스 엔게이지먼트율 업계 평균 대비 40% 초과.</li>
+            <li>iResearch, "중국 라이브커머스 광고 2025" — 콰이셔우 광고 수익 전년 대비 25% 성장, 라이브커머스 퍼포먼스 광고가 주도.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 브랜드가 콰이쇼우를 중국 미디어 전략에 포함할지 평가하고, 콰이쇼우의 사용자층과 커머스 문화에 맞는 플랫폼별 캠페인을 구축할 수 있도록 지원합니다.</p>

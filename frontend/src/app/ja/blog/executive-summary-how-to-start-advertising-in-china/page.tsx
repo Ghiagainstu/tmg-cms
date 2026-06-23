@@ -95,14 +95,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">中国で広告を始める最善の方法は、最も大きなアイデアではなく、最も明確な計画から始めることです。目的を定義し、プラットフォーム選定を簡素化し、運用準備を先に整えた経営陣は、通常より強力な最初のキャンペーンを実現できます。</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>参考文献</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">GroupM「This Year Next Year：中国2025」— 中国の広告総支出は1兆2,000億元、デジタルが総メディア投資の82%を占める。 eMarketer「中国デジタル広告支出2025」— 中国は米国に次ぐ世界第2位のデジタル広告市場、前年比12.4%成長。 McKinsey「中国消費者レポート2025」— 4億人超の中間所得層が1線〜3線都市のプレミアムブランド需要を牽引。</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">参考文献</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>GroupM「This Year Next Year：中国2025」— 中国の広告総支出は1兆2,000億元、デジタルが総メディア投資の82%を占める。</li>
+            <li>eMarketer「中国デジタル広告支出2025」— 中国は米国に次ぐ世界第2位のデジタル広告市場、前年比12.4%成長。</li>
+            <li>McKinsey「中国消費者レポート2025」— 4億人超の中間所得層が1線〜3線都市のプレミアムブランド需要を牽引。</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">情報提供目的のデータです。最新の数値は原著でご確認ください。</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、国際広告主が中国市場参入をより明確で構造化されたプロセスに変え、投資を拡大する前に経営陣がより良い第1フェーズの判断を下せるよう支援します。</p>

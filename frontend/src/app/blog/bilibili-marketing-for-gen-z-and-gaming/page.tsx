@@ -197,14 +197,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Bilibili represents a unique opportunity for international brands to connect with China\'s most engaged Gen-Z and gaming communities. Success requires understanding Bilibili\'s distinct community culture, developing authentic content strategies, and building genuine creator partnerships. Brands that master Bilibili can access highly loyal audiences and drive significant brand advocacy.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>Sources</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">Bilibili Q4 2024 Earnings Report — Average monthly active users reached 340 million, with 80% aged 18-35. QuestMobile, "China Gen-Z Mobile Internet Report 2025" — Bilibili ranked as the top content platform for users born after 1995. iResearch, "China Gaming Marketing White Paper 2025" — Bilibili identified as the primary platform for gaming content discovery among young Chinese users.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Sources</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Bilibili Q4 2024 Earnings Report — Average monthly active users reached 340 million, with 80% aged 18-35.</li>
+            <li>QuestMobile, "China Gen-Z Mobile Internet Report 2025" — Bilibili ranked as the top content platform for users born after 1995.</li>
+            <li>iResearch, "China Gaming Marketing White Paper 2025" — Bilibili identified as the primary platform for gaming content discovery among young Chinese users.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Data cited for informational purposes. Verify current figures with original sources.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands evaluate Bilibili as part of their China marketing strategy and build platform-specific campaigns that resonate with Gen-Z and gaming communities.</p>

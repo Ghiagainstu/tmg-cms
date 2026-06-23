@@ -182,14 +182,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">中国でのコンバージョン最適化は、ユニークなユーザー行動パターン、プラットフォーム固有のデザイン慣習、技術要件を考慮した specialized なアプローチを必要とします。成功には、中国消費者行動の理解、各プラットフォームのデザイン言語へのランディングページ適応、厳格なA/Bテスト方法論の実装、中国の多様なデジタルエコシステム全体のコンバージョンパフォーマンスの継続的な測定と改善が必要です。</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>参考文献</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">Google「モバイルランディングページベンチマーク2025」— 2秒以内に読み込まれるページはCVRが15%高い。 Alibaba DAMO Academy「中国モバイルコマースレポート2025」— 中国EC取引の78%がモバイル端末から発生。 百度マーケティング「LP最適化ガイド2025」— 微信統合LPは信頼シグナル2.3倍、フォーム完了率18%向上。</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">参考文献</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Google「モバイルランディングページベンチマーク2025」— 2秒以内に読み込まれるページはCVRが15%高い。</li>
+            <li>Alibaba DAMO Academy「中国モバイルコマースレポート2025」— 中国EC取引の78%がモバイル端末から発生。</li>
+            <li>百度マーケティング「LP最適化ガイド2025」— 微信統合LPは信頼シグナル2.3倍、フォーム完了率18%向上。</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">情報提供目的のデータです。最新の数値は原著でご確認ください。</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、中国の多様なプラットフォームエコシステム全体でランディングページパフォーマンスを改善する体系的なコンバージョン最適化プログラムの実装を支援します。</p>

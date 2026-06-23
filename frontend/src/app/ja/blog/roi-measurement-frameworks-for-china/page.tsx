@@ -187,14 +187,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">中国でのROI測定は、ウォールドガーデンデータ環境、複雑なクロスプラットフォームジャーニー、プラットフォーム固有の指標を考慮した specialized なフレームワークを必要とします。成功には、 sophisticated なアトリビューションモデルの実装、厳格なインクリメンタリティテストの実施、正確なメディアミックスモデルの構築、中国の断片化されたプラットフォームエコシステム全体の意思決定のための明確な可視性を提供する統合レポートの作成が必要です。</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>参考文献</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">GroupM「This Year Next Year：中国2025」— 中国デジタル広告市場6,800億元、測定高度化は広告主の最優先課題。 Google & BCG「マーケティング測定の未来」— マルチタッチアトリビューションはラストクリック比でROAS精度25〜35%向上。 IAB China「デジタル広告測定基準2025」— 微信・抖音・百度横断の統一レポート向け新ガイドライン公開。</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">参考文献</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>GroupM「This Year Next Year：中国2025」— 中国デジタル広告市場6,800億元、測定高度化は広告主の最優先課題。</li>
+            <li>Google & BCG「マーケティング測定の未来」— マルチタッチアトリビューションはラストクリック比でROAS精度25〜35%向上。</li>
+            <li>IAB China「デジタル広告測定基準2025」— 微信・抖音・百度横断の統一レポート向け新ガイドライン公開。</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">情報提供目的のデータです。最新の数値は原著でご確認ください。</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、中国の複雑なプラットフォームエコシステム全体で正確で実用的なインサイトを提供する sophisticated なROI測定フレームワークの実装を支援します。</p>

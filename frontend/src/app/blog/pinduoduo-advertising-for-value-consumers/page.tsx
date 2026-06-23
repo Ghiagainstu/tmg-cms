@@ -176,14 +176,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Pinduoduo represents a massive opportunity for international brands to reach China\'s value-conscious consumers through social commerce and group-buying mechanics. Success requires understanding Pinduoduo\'s unique platform dynamics, adapting product strategies for value positioning, and leveraging social sharing for viral customer acquisition. Brands that master Pinduoduo can access a highly engaged, price-sensitive consumer base at scale.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>Sources</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">PDD Holdings 2024 Annual Report — Pinduoduo surpassed 900 million annual active buyers, with strong growth in lower-tier cities. Bain & Company, "China Social Commerce Report 2025" — Pinduoduo group-buying model drives 40% higher conversion rates than traditional ecommerce for value-conscious segments. Statista, "China Ecommerce Market 2025" — Pinduoduo holds approximately 19% of China ecommerce market share by GMV.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Sources</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>PDD Holdings 2024 Annual Report — Pinduoduo surpassed 900 million annual active buyers, with strong growth in lower-tier cities.</li>
+            <li>Bain & Company, "China Social Commerce Report 2025" — Pinduoduo group-buying model drives 40% higher conversion rates than traditional ecommerce for value-conscious segments.</li>
+            <li>Statista, "China Ecommerce Market 2025" — Pinduoduo holds approximately 19% of China ecommerce market share by GMV.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Data cited for informational purposes. Verify current figures with original sources.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands evaluate Pinduoduo as part of their China market strategy and build platform-specific campaigns that effectively reach value-conscious consumers.</p>

@@ -92,14 +92,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">팡글은 크로스보더 목표를 가진 브랜드에게 귀중한 채널이지만, 중국 본토 플랫폼과는 다른 목적을 수행합니다. 팡글이 적절한 도구인지, 국내 플랫폼이 더 적합한지를 정확히 판단하는 것이 효과적인 크로스보더 미디어 기획의 핵심입니다. 시장 목표의 명확화, 타겟팅 전략 수립, 크리에이티브 현지화, 그리고 측정 체계 구축을 차근차근 진행하면 팡글은 크로스보더 마케팅의 강력한 축이 됩니다.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>참고 자료</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">TikTok for Business, "팡글 광고 네트워크 개요 2025" — 팡글은 중국 본토 외 글로벌 시장에서 30만 개 이상 앱, 15억 명 이상 사용자 도달. AppsFlyer, "모바일 광고 현황 2025" — 팡글은 동남아·중동 게임 앱 설치 광고 네트워크 상위 5위. Sensor Tower, "크로스보더 광고 지출 보고서 2025" — 팡글 크로스보더 캠페인은 다른 글로벌 네트워크 대비 CPI 28% 낮음.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">참고 자료</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>TikTok for Business, "팡글 광고 네트워크 개요 2025" — 팡글은 중국 본토 외 글로벌 시장에서 30만 개 이상 앱, 15억 명 이상 사용자 도달.</li>
+            <li>AppsFlyer, "모바일 광고 현황 2025" — 팡글은 동남아·중동 게임 앱 설치 광고 네트워크 상위 5위.</li>
+            <li>Sensor Tower, "크로스보더 광고 지출 보고서 2025" — 팡글 크로스보더 캠페인은 다른 글로벌 네트워크 대비 CPI 28% 낮음.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 브랜드가 크로스보더 광고 기회를 평가하고, 특정 시장 목표에 최적화된 플랫폼 조합으로 미디어 전략을 구축할 수 있도록 지원합니다. 팡글 평가부터 실운영까지 풍부한 경험을 보유한 팀이 함께합니다.</p>

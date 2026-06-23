@@ -164,14 +164,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">ライブコマース2.0は、中国のECの next 進化を represent し、国際ブランドにエンゲージメント、コンバージョン、ロイヤルティを推進する没入型でインタラクティブなショッピング体験を生み出す unprecedented な機会を提供します。成功には、AR試着技術の実装、マルチホストコラボレーションフォーマットの開発、ゲーミフィケーション要素の統合、戦略を最適化しROIを最大化するためのビジネスパフォーマンスに対するこれらのイノベーションの影響の測定が必要です。</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>参考文献</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">iResearch「中国ライブコマースレポート2025」— ライブコマース市場は5兆3,000億元を突破。インタラクティブフォーマットは前年比60%成長。 抖音公式「抖音コマースエコシステム2025」— 投票・クイズ・クリック可能商品などのインタラクティブ機能で視聴者→購入者のCVRが35%向上。 Kantar「ライブコマースの未来2025」— 中国消費者の68%がインタラクティブなライブセッションで購入経験あり。</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">参考文献</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>iResearch「中国ライブコマースレポート2025」— ライブコマース市場は5兆3,000億元を突破。インタラクティブフォーマットは前年比60%成長。</li>
+            <li>抖音公式「抖音コマースエコシステム2025」— 投票・クイズ・クリック可能商品などのインタラクティブ機能で視聴者→購入者のCVRが35%向上。</li>
+            <li>Kantar「ライブコマースの未来2025」— 中国消費者の68%がインタラクティブなライブセッションで購入経験あり。</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">情報提供目的のデータです。最新の数値は原著でご確認ください。</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、中国の競争の激しいEC市場で没入型ショッピング体験を作成し、測定可能なビジネス成果を推進する次世代ライブコマース2.0戦略の実装を支援します。</p>

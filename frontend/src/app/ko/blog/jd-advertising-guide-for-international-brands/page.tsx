@@ -168,14 +168,27 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">JD.com은 포괄적인 중국 이커머스 커버리지를 추구하는 국제 브랜드에게 중요한 두 번째 플랫폼입니다. 성공에는 JD.com의 고유한 에코시스템 이해, 광고와 상품 관리 모두의 최적화, 전략적 정밀함으로 운영 복잡성을 탐색하는 것이 필요합니다. JD.com을 톈마오와 함께 마스터하는 브랜드는 중국 프리미엄 소비자 시장의 상당히 더 큰 점유율을 확보할 수 있습니다.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>참고 자료</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">eMarketer, "중국 이커머스 전망 2025" — JD.com 연간 활성 고객 5.8억 명 초과, 중국 제2위 이커머스 플랫폼. JD.com 2024 연례 보고서 — 매출 1조 1,600억 위안, 광고 서비스 수익 전년 대비 성장. McKinsey, "중국 디지털 광고 2025" — JD.com 광고 생태계는 프리미엄 브랜드의 핵심 채널.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">찴고 자료</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>eMarketer, "중국 이켴엄 전망 2025" — JD.com 연간 활성 고객 5.8억 명 초과, 중국 제2위 이켴엄 플랫폼.</li>
+            <li>JD.com 2024 연레 보고서 — 매출 1조 1,600억 위안, 광고 서비스 수익 전년 대비 성장.</li>
+            <li>McKinsey, "중국 디지털 광고 2025" — JD.com 광고 생태계는 프리미엄 브랜드의 핵심 채널.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다。</p>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">참고 자료</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>eMarketer, "중국 이커머스 전망 2025" — JD.com 연간 활성 고객 5.8억 명 초과, 중국 제2위 이커머스 플랫폼.</li>
+            <li>JD.com 2024 연례 보고서 — 매출 1조 1,600억 위안, 광고 서비스 수익 전년 대비 성장.</li>
+            <li>McKinsey, "중국 디지털 광고 2025" — JD.com 광고 생태계는 프리미엄 브랜드의 핵심 채널.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 브랜드가 중국 이커머스 전략의 일환으로 JD.com을 평가하고 측정 가능한 비즈니스 결과를 추진하는 플랫폼별 광고 캠페인을 구축할 수 있도록 지원합니다.</p>

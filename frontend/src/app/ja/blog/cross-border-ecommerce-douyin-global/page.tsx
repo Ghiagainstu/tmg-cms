@@ -200,14 +200,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">抖音グローバルショップは、コンテンツ駆動型コマースを通じて中国EC市場に参入し拡大する国際ブランドにとって変革的な機会を represent します。成功には、抖音のユニークなコンテンツコマースエコシステムの理解、 compelling なコンテンツ戦略の開発、効果的なクリエイターパートナーシップの構築、 exceptional カスタマー体験の提供 while 越境ECの運営の複雑さのナビゲートが必要です。</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>参考文献</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">TikTok Shop「2024年越境ECレポート」— グローバルGMV200億ドル超。東南アジアが最も成長の速い地域。 iiMedia Research「中国越境ECレポート2025」— 市場規模12兆3,000億元、ショートビデオECは前年比45%成長。 中国商務部「越境EC試験ゾーン更新2025」— 全国165以上の越境EC試験ゾーンが承認済み。</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">参考文献</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>TikTok Shop「2024年越境ECレポート」— グローバルGMV200億ドル超。東南アジアが最も成長の速い地域。</li>
+            <li>iiMedia Research「中国越境ECレポート2025」— 市場規模12兆3,000億元、ショートビデオECは前年比45%成長。</li>
+            <li>中国商務部「越境EC試験ゾーン更新2025」— 全国165以上の越境EC試験ゾーンが承認済み。</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">情報提供目的のデータです。最新の数値は原著でご確認ください。</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、測定可能なビジネス成果を推進するコンテンツコマース戦略を通じて、国際ブランドの抖音グローバルショップでのプレゼンス確立と拡大を支援します。</p>

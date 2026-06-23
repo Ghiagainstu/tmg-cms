@@ -187,14 +187,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">ROI measurement in China requires specialized frameworks that account for walled garden data environments, complex cross-platform journeys, and platform-specific metrics. Success requires implementing sophisticated attribution models, conducting rigorous incrementality testing, building accurate media mix models, and creating unified reporting that provides clear visibility for decision-making across China\'s fragmented platform ecosystem.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>Sources</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">GroupM, "This Year Next Year: China 2025" — China digital ad market reached RMB 680 billion, with measurement sophistication as a top advertiser priority. Google & BCG, "The Future of Marketing Measurement" — Multi-touch attribution models improve ROAS accuracy by 25-35% vs last-click models. IAB China, "Digital Advertising Measurement Standards 2025" — New cross-platform measurement guidelines for unified reporting across WeChat, Douyin, and Baidu.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Sources</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>GroupM, "This Year Next Year: China 2025" — China digital ad market reached RMB 680 billion, with measurement sophistication as a top advertiser priority.</li>
+            <li>Google & BCG, "The Future of Marketing Measurement" — Multi-touch attribution models improve ROAS accuracy by 25-35% vs last-click models.</li>
+            <li>IAB China, "Digital Advertising Measurement Standards 2025" — New cross-platform measurement guidelines for unified reporting across WeChat, Douyin, and Baidu.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Data cited for informational purposes. Verify current figures with original sources.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands implement sophisticated ROI measurement frameworks that provide accurate, actionable insights across China\'s complex platform ecosystem.</p>

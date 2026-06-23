@@ -168,14 +168,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">重要ポイント</p>
           <p className="text-[#dce4f0]">JD.comは、包括的な中国ECカバレッジを求める国際ブランドにとって重要な第2プラットフォームです。成功には、JD.comのユニークなエコシステムの理解、広告と商品管理の両方の最適化、戦略的精度による運営の複雑さのナビゲートが必要です。JD.comをTmallと並行してマスターするブランドは、中国のプレミアム消費者市場の significantly 大きいシェアを獲得できます。</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">情報提供目的のデータです。最新の数値は原著でご確認ください。</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>参考文献</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">eMarketer「中国EC予測2025」— JD.comは年間アクティブ顧客5.8億人超で中国第2位のECプラットフォーム。 JD.com 2024年次報告 — 売上高1兆1,600億元、広告サービス収益は前年比増加。 McKinsey「中国デジタル広告2025」— JD.com広告エコシステムはプレミアムブランドの主要チャネル。</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">参考文献</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>eMarketer「中国EC予測2025」— JD.comは年間アクティブ顧客5.8億人超で中国第2位のECプラットフォーム。</li>
+            <li>JD.com 2024年次報告 —売上高1兆1,600億元、広告サービス収益は前年比增加。</li>
+            <li>McKinsey「中国デジタル広告2025」— JD.com広告エコシステムはプレミアムブランドの主要チャネル。</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">情報提供目的のデータです。最新の数値は原著でご確認ください。</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMGは、国際ブランドが中国EC戦略の一部としてJD.comを評価し、測定可能なビジネス成果を推進するプラットフォーム固有の広告キャンペーンを構築するお手伝いをします。</p>

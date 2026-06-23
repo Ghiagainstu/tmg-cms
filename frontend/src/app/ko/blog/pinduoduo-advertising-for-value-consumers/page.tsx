@@ -176,14 +176,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">핀둬두는 소셜 커머스와 공동 구매 메커니즘을 통해 중국의 가성비 소비자에게 도달하려는 국제 브랜드에게 거대한 기회를 제공합니다. 성공에는 핀둬두의 고유한 플랫폼 역학 이해, 가치 포지셔닝을 위한 상품 전략 적응, 바이럴 고객 확보를 위한 소셜 공유 활용이 필요합니다. 핀둬두를 마스터하는 브랜드는 고도로 참여한 가격 민감 소비자 기반에 대규모로 접근할 수 있습니다.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>참고 자료</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">PDD Holdings 2024 연례 보고서 — 핀둬둬 연간 활성 바이어 9억 명 돌파, 하위 도시에서 강한 성장. Bain & Company, "중국 소셜 커머스 보고서 2025" — 핀둬둬 공동구매 모델은 가치 소비 세그먼트에서 기존 이커머스 대비 40% 높은 전환율. Statista, "중국 이커머스 시장 2025" — 핀둬둬는 GMV 기준 중국 이커머스 시장의 약 19% 점유율.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">참고 자료</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>PDD Holdings 2024 연례 보고서 — 핀둬둬 연간 활성 바이어 9억 명 돌파, 하위 도시에서 강한 성장.</li>
+            <li>Bain & Company, "중국 소셜 커머스 보고서 2025" — 핀둬둬 공동구매 모델은 가치 소비 세그먼트에서 기존 이커머스 대비 40% 높은 전환율.</li>
+            <li>Statista, "중국 이커머스 시장 2025" — 핀둬둬는 GMV 기준 중국 이커머스 시장의 약 19% 점유율.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 브랜드가 중국 시장 전략의 일환으로 핀둬두를 평가하고 가성비 소비자에게 효과적으로 도달하는 플랫폼별 캠페인을 구축할 수 있도록 지원합니다.</p>

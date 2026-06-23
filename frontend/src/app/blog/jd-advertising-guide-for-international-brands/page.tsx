@@ -168,14 +168,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">JD.com represents a critical second platform for international brands seeking comprehensive China ecommerce coverage. Success requires understanding JD.com's unique ecosystem, optimizing both advertising and product management, and navigating operational complexities with strategic precision. Brands that master JD.com alongside Tmall can capture a significantly larger share of China's premium consumer market.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>Sources</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">eMarketer, "China Ecommerce Forecast 2025" — JD.com ranked as China second-largest ecommerce platform with over 580 million annual active customers. JD.com 2024 Annual Report — Net revenues reached RMB 1.16 trillion, with advertising services revenue growing year-over-year. McKinsey & Company, "China Digital Advertising 2025" — JD.com advertising ecosystem identified as a key performance channel for premium brands.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Sources</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>eMarketer, "China Ecommerce Forecast 2025" — JD.com ranked as China’s second-largest ecommerce platform with over 580 million annual active customers.</li>
+            <li>JD.com 2024 Annual Report — Net revenues reached RMB 1.16 trillion, with advertising services revenue growing year-over-year.</li>
+            <li>McKinsey & Company, "China Digital Advertising 2025" — JD.com’s advertising ecosystem identified as a key performance channel for premium brands.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Data cited for informational purposes. Verify current figures with original sources.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands evaluate JD.com as part of their China ecommerce strategy and build platform-specific advertising campaigns that drive measurable business results.</p>

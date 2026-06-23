@@ -100,14 +100,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
           <p className="text-[#dce4f0]">AI 크리에이티브는 특히 카피 테스트, 포맷 적응, 현지화 같은 대량 태스크에서 중국 광고 제작에 귀중한 도구가 되어가고 있습니다. 그러나 전략적 크리에이티브 사고와 컴플라이언스 검토를 대체하는 것이 아니라 구조화된 워크플로우에서 인간의 감독과 결합했을 때 가장 효과적입니다.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>참고 자료</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">McKinsey, "마케팅에서 AI 현황 2025" — 글로벌 마케팅 조직의 65%가 최소 1개 업무에 생성형 AI 활용. 百度 마케팅, "AI 크리에이티브 도구 보고서 2025" — AI 생성 광고 변형은 중국 캠페인에서 A/B 테스트 효율 22% 향상. 중국 국가인터넷정보판공실, "생성형 AI 서비스 잠정 조치" — 2023년 8월 시행, 상업적 AI 생성 콘텐츠 공개 의무화.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">참고 자료</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>McKinsey, "마케팅에서 AI 현황 2025" — 글로벌 마케팅 조직의 65%가 최소 1개 업무에 생성형 AI 활용.</li>
+            <li>百度 마케팅, "AI 크리에이티브 도구 보고서 2025" — AI 생성 광고 변형은 중국 캠페인에서 A/B 테스트 효율 22% 향상.</li>
+            <li>중국 국가인터넷정보판공실, "생성형 AI 서비스 잠정 조치" — 2023년 8월 시행, 상업적 AI 생성 콘텐츠 공개 의무화.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">정보 제공 목적으로 인용된 데이터입니다. 최신 수치는 원본에서 확인하시기 바랍니다.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 광고주가 AI 크리에이티브 도구를 중국 광고 제작 워크플로우에 통합하고 속도와 대량 생산을 품질 및 컴플라이언스 기준과 균형 있게 운영할 수 있도록 지원합니다.</p>

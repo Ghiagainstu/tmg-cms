@@ -182,14 +182,17 @@ export default function Page() {
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">Key Takeaway</p>
           <p className="text-[#dce4f0]">Conversion optimization in China requires specialized approaches that account for unique user behavior patterns, platform-specific design conventions, and technical requirements. Success requires understanding Chinese consumer behavior, adapting landing pages to each platform\'s design language, implementing rigorous A/B testing methodologies, and continuously measuring and improving conversion performance across China\'s diverse digital ecosystem.</p>
-        </section>        <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">Data cited for informational purposes. Verify current figures with original sources.</h2>
-          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
-            <li>Sources</li>
-          </ul>
-          <p className="text-[#8899b5] text-xs mt-3">Google, "Mobile Landing Page Benchmarks 2025" — Pages loading within 2 seconds achieve 15% higher conversion rates. Alibaba DAMO Academy, "China Mobile Commerce Report 2025" — 78% of ecommerce transactions in China originate from mobile devices. Baidu Marketing, "Landing Page Optimization Guide 2025" — WeChat-integrated landing pages show 2.3x higher trust signals and 18% better form completion rates.</p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">Sources</h2>
+          <ul className="list-disc pl-6 text-[#b3c0d8] space-y-2 text-sm">
+            <li>Google, "Mobile Landing Page Benchmarks 2025" — Pages loading within 2 seconds achieve 15% higher conversion rates.</li>
+            <li>Alibaba DAMO Academy, "China Mobile Commerce Report 2025" — 78% of ecommerce transactions in China originate from mobile devices.</li>
+            <li>Baidu Marketing, "Landing Page Optimization Guide 2025" — WeChat-integrated landing pages show 2.3x higher trust signals and 18% better form completion rates.</li>
+          </ul>
+          <p className="text-[#8899b5] text-xs mt-3">Data cited for informational purposes. Verify current figures with original sources.</p>
+        </section>
 
         <section className="text-center">
           <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG helps international brands implement systematic conversion optimization programs that improve landing page performance across China\'s diverse platform ecosystem.</p>
