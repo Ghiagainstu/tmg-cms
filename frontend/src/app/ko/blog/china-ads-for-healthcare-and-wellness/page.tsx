@@ -1,73 +1,134 @@
 ﻿export const metadata = {
-  title: '중국 의료·웰니스 광고: 컴플라이언스 및 크리에이티브 플레이북',
-  description: '국제 의료·웰니스 브랜드를 위한 중국 광고 실전 가이드. 컴플라이언스 요건, 플랫폼 선정, 크리에이티브 기대치, 일반적인 승인 반려 사유를 설명합니다.'
+  title: '중국 헬스케어·웰니스 광고: 컴플라이언스와 크리에이티브 실무 가이드',
+  description: '국제 헬스케어·웰니스 브랜드를 위한 중국 광고 실무 가이드. 컴플라이언스 요건, 플랫폼 선정, 크리에이티브 기대사항, 흔한 심사 탈락 사유를 다룹니다.'
 }
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-[#080c14] text-white">
       <header className="pt-24 pb-10 px-6 text-center">
-        <p className="text-xs uppercase tracking-widest text-[#c9a84c] mb-4">업계 플레이북</p>
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight max-w-4xl mx-auto">중국 의료·웰니스 광고: 컴플라이언스 및 크리에이티브 플레이북</h1>
-        <p className="mt-4 text-[#b3c0d8] max-w-3xl mx-auto">국제 의료·웰니스 브랜드를 위한 중국 광고 실전 가이드. 컴플라이언스 요건, 플랫폼 선정, 크리에이티브 기대치, 일반적인 승인 반려 사유를 설명합니다.</p>
-        <p className="mt-3 text-sm text-[#8899b5]">TMG 편집부 · 2026년 6월 22일 · 읽기 시간 14분</p>
+        <p className="text-xs uppercase tracking-widest text-[#c9a84c] mb-4">산업 플레이북</p>
+        <h1 className="text-3xl md:text-5xl font-bold leading-tight max-w-4xl mx-auto">중국 헬스케어·웰니스 광고: 컴플라이언스와 크리에이티브 실무 가이드</h1>
+        <p className="mt-4 text-[#b3c0d8] max-w-3xl mx-auto">국제 헬스케어·웰니스 브랜드를 위한 중국 광고 실무 가이드. 컴플라이언스 요건, 플랫폼 선정, 크리에이티브 기대사항, 흔한 심사 탈락 사유를 다룹니다.</p>
+        <p className="mt-3 text-sm text-[#8899b5]">TMG 편집부 · 2026년 6월 22일 · 읽는 시간 14분</p>
       </header>
 
       <article className="max-w-4xl mx-auto px-6 pb-20 space-y-10">
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">의료 광고에 다른 플레이북이 필요한 이유</h2>
-          <p className="text-[#dce4f0]">중국 의료·웰니스 시장은 빠르게 성장하고 있지만, 이 카테고리의 광고 규칙은 일반 소비자 제품보다 훨씬 엄격합니다. 국제 팀이 표준 소비자 광고 워크플로우로 진입하려 하면 장기 승인 지연, 크리에이티브 반려, 계정 제한에 직면하는 경우가 많습니다. 크리에이티브 에셋을 제작하기 전에 컴플라이언스 프레임워크를 이해하는 것이 가장 중요한 첫 단계입니다.</p>
+          <h2 className="text-2xl font-semibold">왜 중국 헬스케어 광고에는 다른 플레이북이 필요한가</h2>
+          <p className="text-[#dce4f0]">중국은 헬스케어, 웰니스, 보충제 브랜드에게 가장 빠르게 성장하는 시장 중 하나입니다. 그러나 이 카테고리의 광고 규제는 일반 소비재에 비해 훨씬 엄격합니다. 일반적인 소비자 광고 워크플로우를 예상하고 이 시장에 진출하는 국제 팀들은 긴 심사 지연, 크리에이티브 반려, 계정 제한을 경험하는 경우가 많습니다. 크리에이티브 에셋을 구축하기 전에 컴플라이언스 프레임워크를 이해하는 것이 가장 중요한 첫 단계입니다.</p>
         </section>
 
         <section className="grid md:grid-cols-3 gap-5">
           <div className="bg-[#111827] border border-[#1e2d45] rounded-xl p-5">
             <p className="text-[#c9a84c] text-sm font-semibold mb-2">1</p>
             <p className="font-semibold mb-1">컴플라이언스가 최우선</p>
-            <p className="text-sm text-[#b3c0d8]">건강 주장, 제품 카테고리, 인증은 모든 주요 플랫폼에서 엄격히 규제됩니다.</p>
+            <p className="text-sm text-[#b3c0d8]">건강 관련 표현, 제품 카테고리, 인증은 모든 주요 플랫폼에서 엄격히 규제됩니다.</p>
           </div>
           <div className="bg-[#111827] border border-[#1e2d45] rounded-xl p-5">
             <p className="text-[#c9a84c] text-sm font-semibold mb-2">2</p>
             <p className="font-semibold mb-1">크리에이티브 표현에 제한이 있다</p>
-            <p className="text-sm text-[#b3c0d8]">"치료", "보장", "임상적으로 입증" 등의 표현은 구체적 근거 없이는 반려됩니다.</p>
+            <p className="text-sm text-[#b3c0d8]">「치료」「보장」「임상적으로 입증됨」과 같은 표현은 구체적 근거가 없으면 반려됩니다.</p>
           </div>
           <div className="bg-[#111827] border border-[#1e2d45] rounded-xl p-5">
             <p className="text-[#c9a84c] text-sm font-semibold mb-2">3</p>
             <p className="font-semibold mb-1">플랫폼 선택이 중요</p>
-            <p className="text-sm text-[#b3c0d8]">모든 플랫폼이 모든 의료 카테고리를 수용하지 않습니다. 잘못된 선택은 수 주간의 손실을 초래합니다.</p>
+            <p className="text-sm text-[#b3c0d8]">모든 플랫폼이 모든 헬스케어 카테고리를 수용하지 않습니다. 잘못된 선택은 심사에 수 주를 낭비합니다.</p>
           </div>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">주요 플랫폼별 적합성</h2>
+          <h2 className="text-2xl font-semibold">TMG의 헬스케어 광고 프레임워크</h2>
+          <p className="text-[#dce4f0]">TMG에서는 일반적으로 헬스케어·웰니스 광고주에게 네 가지 영역에서 중국 시장 진출을 정리할 것을 권장합니다. 카테고리 분류, 서류 준비, 플랫폼별 컴플라이언스 규칙, 크리에이티브 전략이 그것입니다. 이 프레임워크는 국제 팀이 가장 흔한 심사 반려 사이클을 방지하는 데 도움이 됩니다.</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-[#1e2d45] rounded-xl overflow-hidden">
+              <thead className="bg-[#111827] text-left">
+                <tr>
+                  <th className="p-3 border-b border-[#1e2d45]">영역</th>
+                  <th className="p-3 border-b border-[#1e2d45]">준비 내용</th>
+                  <th className="p-3 border-b border-[#1e2d45]">중요한 이유</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[#1e2d45]">
+                <tr>
+                  <td className="p-3 font-semibold">카테고리 분류</td>
+                  <td className="p-3 text-[#dce4f0]">일반의약품, 건강식품(보건품), 의료기기, 웰니스 서비스, 건강 효능이 있는 화장품</td>
+                  <td className="p-3 text-[#dce4f0]">어느 플랫폼이 광고를 수용하는지, 어떤 서류가 필요한지 결정</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">서류 준비</td>
+                  <td className="p-3 text-[#dce4f0]">영업허가증, 제품등록증명서, 건강허가증, 브랜드 인증서</td>
+                  <td className="p-3 text-[#dce4f0]">서류 미비가 가장 흔한 반려 사유</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">플랫폼별 규칙</td>
+                  <td className="p-3 text-[#dce4f0]">바이두, 위챗, 샤오홍슈, 더우인의 카테고리별 승인 정책</td>
+                  <td className="p-3 text-[#dce4f0]">플랫폼마다 다른 카테고리 제한과 심사 기준이 있음</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">크리에이티브 전략</td>
+                  <td className="p-3 text-[#dce4f0]">표현 조정, 면책 조항 현지화, 비주얼 요건</td>
+                  <td className="p-3 text-[#dce4f0]">중국 광고법에 부합하는 크리에이티브는 다른 시장과 다름</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">중국 광고법상 헬스케어 광고의 주요 규제 사항</h2>
+          <p className="text-[#dce4f0]">중국 광고법은 헬스케어 카테고리에 대해 특히 엄격한 규정을 두고 있습니다. 일반적으로 금지되거나 요구되는 사항은 다음과 같습니다.</p>
+          <ul className="list-disc pl-6 text-[#dce4f0] space-y-2">
+            <li>치유나 완치를 보장하는 표현 사용이 금지됩니다</li>
+            <li>효능이나 효과를 단정적으로 표현하려면 근거 자료가 필요합니다</li>
+            <li>의료 종사자나 환자의 추천은 엄격히 규제됩니다</li>
+            <li>처방약 광고는 소비자 대상 플랫폼에서 제한됩니다</li>
+            <li>건강식품에는 승인된 면책 조항 표시가 의무화됩니다</li>
+          </ul>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">헬스케어 광고에서 흔히 빠지는 함정</h2>
+          <p className="text-[#dce4f0]">국제 헬스케어 브랜드가 중국에서 직면하는 가장 일반적인 문제는 다음과 같습니다. 올바른 카테고리 인증서 없이 광고를 제출하는 것, 다른 시장에서는 유효하지만 중국 광고법을 위반하는 표현을 사용하는 것, 자사 제품 카테고리를 수용하지 않는 플랫폼을 선택하는 것, 크리에이티브 심사 일정을 과소평가하는 것입니다. 많은 팀들이 규제 카테고리에서 의무화된 현지화된 면책 조항 준비도 간과합니다.</p>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-semibold">헬스케어·웰니스에 적합한 플랫폼</h2>
+          <p className="text-[#dce4f0]">모든 플랫폼이 헬스케어 광고에 동등하게 적합한 것은 아닙니다. 바이두 검색 광고는 증상별, 제품 조사 쿼리에 많이 활용됩니다. 위챗 광고는 강력한 콘텐츠 전략을 갖춘 웰니스 브랜드에 효과적입니다. 샤오홍슈는 뷰티-웰니스 크로스오버 제품의 중요성이 커지고 있으나 컴플라이언스 심사가 엄격합니다. 더우인은 인지도 확산에는 강력하지만 직접적인 건강 표현에는 상당한 제한이 있습니다. 적절한 제품 유형에 적절한 플랫폼을 선택하는 것이 초기의 핵심 판단입니다.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-[#1e2d45] rounded-xl overflow-hidden">
               <thead className="bg-[#111827] text-left">
                 <tr>
                   <th className="p-3 border-b border-[#1e2d45]">플랫폼</th>
-                  <th className="p-3 border-b border-[#1e2d45]">최적 용도</th>
-                  <th className="p-3 border-b border-[#1e2d45]">주의사항</th>
+                  <th className="p-3 border-b border-[#1e2d45]">적합한 용도</th>
+                  <th className="p-3 border-b border-[#1e2d45]">주의점</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-[#1e2d45]">
                 <tr>
-                  <td className="p-3 font-semibold">Baidu</td>
-                  <td className="p-3 text-[#dce4f0]">OTC 의약품, 의료기기, 질환별 검색 의도</td>
-                  <td className="p-3 text-[#dce4f0]">엄격한 증명서 요건 및 랜딩페이지 심사</td>
+                  <td className="p-3 font-semibold">바이두</td>
+                  <td className="p-3 text-[#dce4f0]">일반의약품, 의료기기, 증상별 검색 의도</td>
+                  <td className="p-3 text-[#dce4f0]">엄격한 인증서 요건과 랜딩페이지 심사</td>
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold">WeChat</td>
-                  <td className="p-3 text-[#dce4f0]">웰니스 브랜드, 콘텐츠 마케팅, 프라이빗 도메인</td>
-                  <td className="p-3 text-[#dce4f0]">광고 문구의 건강 주장은 신중히 검토해야 함</td>
+                  <td className="p-3 font-semibold">위챗</td>
+                  <td className="p-3 text-[#dce4f0]">웰니스 브랜드, 콘텐츠 마케팅, 프라이빗 도메인 엔게이지먼트</td>
+                  <td className="p-3 text-[#dce4f0]">광고 카피 내 건강 표현은 신중한 검토 필요</td>
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold">Xiaohongshu</td>
-                  <td className="p-3 text-[#dce4f0]">뷰티·웰니스 교차, 건강보조식품, 라이프스타일 포지셔닝</td>
-                  <td className="p-3 text-[#dce4f0]">광고와 유기적 콘텐츠 모두 건강 주장 심사가 매우 엄격</td>
+                  <td className="p-3 font-semibold">샤오홍슈</td>
+                  <td className="p-3 text-[#dce4f0]">뷰티-웰니스 크로스오버, 보충제 브랜드, 라이프스타일 포지셔닝</td>
+                  <td className="p-3 text-[#dce4f0]">광고와 오가닉 콘텐츠 모두의 건강 표현에 매우 엄격한 심사</td>
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold">Douyin</td>
-                  <td className="p-3 text-[#dce4f0]">브랜드 인지도, 웰니스 라이프스타일 콘텐츠</td>
-                  <td className="p-3 text-[#dce4f0]">직접적인 건강 주장과 전후 비교 이미지는 반려되기 쉬움</td>
+                  <td className="p-3 font-semibold">더우인</td>
+                  <td className="p-3 text-[#dce4f0]">브랜드 인지도 확산, 웰니스 라이프스타일 콘텐츠, 광범위한 도달</td>
+                  <td className="p-3 text-[#dce4f0]">직접적 건강 표현과 전후 비교 이미지는 자주 반려됨</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">빌리빌리</td>
+                  <td className="p-3 text-[#dce4f0]">교육 중심 웰니스 콘텐츠, 젊은 층 인구통계</td>
+                  <td className="p-3 text-[#dce4f0]">건강 관련 교육 콘텐츠에 대한 컴플라이언스 심사</td>
                 </tr>
               </tbody>
             </table>
@@ -76,11 +137,11 @@ export default function Page() {
 
         <section className="bg-[#111827] border border-[#c9a84c]/40 rounded-2xl p-6">
           <p className="text-[#c9a84c] font-semibold mb-2">핵심 포인트</p>
-          <p className="text-[#dce4f0]">중국 의료·웰니스 광고는 가장 규제가 엄격한 카테고리 중 하나입니다. 성공하는 브랜드는 미디어 비용을 투입하기 전에 컴플라이언스 준비와 현지화된 크리에이티브 전략에 투자합니다. 기반을 올바르게 구축하면 값비싼 승인 지연과 계정 리스크를 방지할 수 있습니다.</p>
+          <p className="text-[#dce4f0]">중국에서의 헬스케어·웰니스 광고는 가장 규제가 엄격한 카테고리 중 하나입니다. 성공하는 브랜드는 보통 미디어 지출 전에 컴플라이언스 준비와 현지화된 크리에이티브 전략에 투자합니다. 기초를 올바르게 구축하면 비싼 심사 지연과 계정 리스크를 방지할 수 있습니다.</p>
         </section>
 
         <section className="text-center">
-          <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 의료·웰니스 브랜드가 중국 광고 컴플라이언스 요건을 탐색하고 승인 가능한 캠페인을 구축할 수 있도록 지원합니다.</p>
+          <p className="text-[#dce4f0] max-w-2xl mx-auto mb-4">TMG는 국제 헬스케어·웰니스 브랜드가 중국의 광고 컴플라이언스 요건을 탐색하고 효과적이면서도 심사를 통과할 수 있는 캠페인을 구축할 수 있도록 지원합니다.</p>
           <a href="/ko/contact" className="inline-block bg-[#c9a84c] text-[#080c14] font-semibold px-6 py-3 rounded-full">TMG에 문의하기</a>
         </section>
       </article>
